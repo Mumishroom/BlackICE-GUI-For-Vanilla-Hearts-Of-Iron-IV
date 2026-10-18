@@ -131,42 +131,48 @@ guiTypes = {
 				pdx_tooltip = "FF_TOPBAR_RES_HIDE"
 			}
 
-			# entry i: box/icon at x = 75*i + 4, value at x = 75*i + 19 (FF: +6 so the oil drop is not cut by the screen edge)
-			iconType = { name = "oil_box"       spriteType = "GFX_generic_box_smallest" position = { x = 4 y = 3 } alwaystransparent = yes }
-			iconType = { name = "oil_icon"      spriteType = "GFX_resources_strip" frame = 1 position = { x = 4 y = 3 } alwaystransparent = yes }
-			instantTextBoxType = { name = "oil_text" position = { x = 19 y = 8 } font = "hoi_16mbs" text = "FF_TOPBAR_RES_OIL" maxWidth = 50 maxHeight = 23 format = right pdx_tooltip = "FF_TOPBAR_RES_OIL_TT" }
+			# entry i: box/icon at x = 75*i + 12, value at x = 75*i + 27 (FF: gap so the oil drop does not touch the screen edge)
+			iconType = { name = "oil_box"       spriteType = "GFX_generic_box_smallest" position = { x = 12 y = 3 } alwaystransparent = yes }
+			iconType = { name = "oil_icon"      spriteType = "GFX_resources_strip" frame = 1 position = { x = 12 y = 3 } alwaystransparent = yes }
+			instantTextBoxType = { name = "oil_text" position = { x = 27 y = 8 } font = "hoi_16mbs" text = "FF_TOPBAR_RES_OIL" maxWidth = 50 maxHeight = 23 format = right pdx_tooltip = "FF_TOPBAR_RES_OIL_TT" }
 
-			iconType = { name = "aluminium_box"  spriteType = "GFX_generic_box_smallest" position = { x = 79 y = 3 } alwaystransparent = yes }
-			iconType = { name = "aluminium_icon" spriteType = "GFX_resources_strip" frame = 2 position = { x = 79 y = 3 } alwaystransparent = yes }
-			instantTextBoxType = { name = "aluminium_text" position = { x = 94 y = 8 } font = "hoi_16mbs" text = "FF_TOPBAR_RES_ALUMINIUM" maxWidth = 50 maxHeight = 23 format = right pdx_tooltip = "FF_TOPBAR_RES_ALUMINIUM_TT" }
+			iconType = { name = "aluminium_box"  spriteType = "GFX_generic_box_smallest" position = { x = 87 y = 3 } alwaystransparent = yes }
+			iconType = { name = "aluminium_icon" spriteType = "GFX_resources_strip" frame = 2 position = { x = 87 y = 3 } alwaystransparent = yes }
+			instantTextBoxType = { name = "aluminium_text" position = { x = 102 y = 8 } font = "hoi_16mbs" text = "FF_TOPBAR_RES_ALUMINIUM" maxWidth = 50 maxHeight = 23 format = right pdx_tooltip = "FF_TOPBAR_RES_ALUMINIUM_TT" }
 
-			iconType = { name = "rubber_box"     spriteType = "GFX_generic_box_smallest" position = { x = 154 y = 3 } alwaystransparent = yes }
-			iconType = { name = "rubber_icon"    spriteType = "GFX_resources_strip" frame = 3 position = { x = 154 y = 3 } alwaystransparent = yes }
-			instantTextBoxType = { name = "rubber_text" position = { x = 169 y = 8 } font = "hoi_16mbs" text = "FF_TOPBAR_RES_RUBBER" maxWidth = 50 maxHeight = 23 format = right pdx_tooltip = "FF_TOPBAR_RES_RUBBER_TT" }
+			iconType = { name = "rubber_box"     spriteType = "GFX_generic_box_smallest" position = { x = 162 y = 3 } alwaystransparent = yes }
+			iconType = { name = "rubber_icon"    spriteType = "GFX_resources_strip" frame = 3 position = { x = 162 y = 3 } alwaystransparent = yes }
+			instantTextBoxType = { name = "rubber_text" position = { x = 177 y = 8 } font = "hoi_16mbs" text = "FF_TOPBAR_RES_RUBBER" maxWidth = 50 maxHeight = 23 format = right pdx_tooltip = "FF_TOPBAR_RES_RUBBER_TT" }
 
-			iconType = { name = "tungsten_box"   spriteType = "GFX_generic_box_smallest" position = { x = 229 y = 3 } alwaystransparent = yes }
-			iconType = { name = "tungsten_icon"  spriteType = "GFX_resources_strip" frame = 4 position = { x = 229 y = 3 } alwaystransparent = yes }
-			instantTextBoxType = { name = "tungsten_text" position = { x = 244 y = 8 } font = "hoi_16mbs" text = "FF_TOPBAR_RES_TUNGSTEN" maxWidth = 50 maxHeight = 23 format = right pdx_tooltip = "FF_TOPBAR_RES_TUNGSTEN_TT" }
+			iconType = { name = "tungsten_box"   spriteType = "GFX_generic_box_smallest" position = { x = 237 y = 3 } alwaystransparent = yes }
+			iconType = { name = "tungsten_icon"  spriteType = "GFX_resources_strip" frame = 4 position = { x = 237 y = 3 } alwaystransparent = yes }
+			instantTextBoxType = { name = "tungsten_text" position = { x = 252 y = 8 } font = "hoi_16mbs" text = "FF_TOPBAR_RES_TUNGSTEN" maxWidth = 50 maxHeight = 23 format = right pdx_tooltip = "FF_TOPBAR_RES_TUNGSTEN_TT" }
 
-			iconType = { name = "steel_box"      spriteType = "GFX_generic_box_smallest" position = { x = 304 y = 3 } alwaystransparent = yes }
-			iconType = { name = "steel_icon"     spriteType = "GFX_resources_strip" frame = 5 position = { x = 304 y = 3 } alwaystransparent = yes }
-			instantTextBoxType = { name = "steel_text" position = { x = 319 y = 8 } font = "hoi_16mbs" text = "FF_TOPBAR_RES_STEEL" maxWidth = 50 maxHeight = 23 format = right pdx_tooltip = "FF_TOPBAR_RES_STEEL_TT" }
+			iconType = { name = "steel_box"      spriteType = "GFX_generic_box_smallest" position = { x = 312 y = 3 } alwaystransparent = yes }
+			iconType = { name = "steel_icon"     spriteType = "GFX_resources_strip" frame = 5 position = { x = 312 y = 3 } alwaystransparent = yes }
+			instantTextBoxType = { name = "steel_text" position = { x = 327 y = 8 } font = "hoi_16mbs" text = "FF_TOPBAR_RES_STEEL" maxWidth = 50 maxHeight = 23 format = right pdx_tooltip = "FF_TOPBAR_RES_STEEL_TT" }
 
-			iconType = { name = "chromium_box"   spriteType = "GFX_generic_box_smallest" position = { x = 379 y = 3 } alwaystransparent = yes }
-			iconType = { name = "chromium_icon"  spriteType = "GFX_resources_strip" frame = 6 position = { x = 379 y = 3 } alwaystransparent = yes }
-			instantTextBoxType = { name = "chromium_text" position = { x = 394 y = 8 } font = "hoi_16mbs" text = "FF_TOPBAR_RES_CHROMIUM" maxWidth = 50 maxHeight = 23 format = right pdx_tooltip = "FF_TOPBAR_RES_CHROMIUM_TT" }
+			iconType = { name = "chromium_box"   spriteType = "GFX_generic_box_smallest" position = { x = 387 y = 3 } alwaystransparent = yes }
+			iconType = { name = "chromium_icon"  spriteType = "GFX_resources_strip" frame = 6 position = { x = 387 y = 3 } alwaystransparent = yes }
+			instantTextBoxType = { name = "chromium_text" position = { x = 402 y = 8 } font = "hoi_16mbs" text = "FF_TOPBAR_RES_CHROMIUM" maxWidth = 50 maxHeight = 23 format = right pdx_tooltip = "FF_TOPBAR_RES_CHROMIUM_TT" }
 
-			iconType = { name = "coal_box"       spriteType = "GFX_generic_box_smallest" position = { x = 454 y = 3 } alwaystransparent = yes }
-			iconType = { name = "coal_icon"      spriteType = "GFX_resources_strip" frame = 7 position = { x = 454 y = 3 } alwaystransparent = yes }
-			instantTextBoxType = { name = "coal_text" position = { x = 469 y = 8 } font = "hoi_16mbs" text = "FF_TOPBAR_RES_COAL" maxWidth = 50 maxHeight = 23 format = right pdx_tooltip = "FF_TOPBAR_RES_COAL_TT" }
+			iconType = { name = "coal_box"       spriteType = "GFX_generic_box_smallest" position = { x = 462 y = 3 } alwaystransparent = yes }
+			iconType = { name = "coal_icon"      spriteType = "GFX_resources_strip" frame = 7 position = { x = 462 y = 3 } alwaystransparent = yes }
+			instantTextBoxType = { name = "coal_text" position = { x = 477 y = 8 } font = "hoi_16mbs" text = "FF_TOPBAR_RES_COAL" maxWidth = 50 maxHeight = 23 format = right pdx_tooltip = "FF_TOPBAR_RES_COAL_TT" }
 		}
 	}
 
 	### Resource row collapsed: tab to open it again (worked before as its own window)
+	# FF: slides from where the row's close tab starts (x=609) to where it ends up (x=1), with the same
+	# animation as the row, so the tab travels with the row instead of popping up before it has slid away
 	containerWindowType = {
 		name = "ff_bice_topbar_resources_open"
-		position = { x = 0 y = 117 }
+		position = { x = 609 y = 117 }
+		show_position = { x = 1 y = 117 }
 		size = { width = 100 height = 30 }
+		show_animation_type = decelerated
+		hide_animation_type = decelerated
+		animation_time = 600
 		buttonType = {
 			name = "open_storage"
 			spriteType = "GFX_storage_right_bg"

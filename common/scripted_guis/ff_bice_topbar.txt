@@ -24,20 +24,19 @@ scripted_gui = {
 		window_name = "ff_bice_topbar_nukes"
 		parent_window_token = top_bar
 	}
-	# FF: defined before the resource row so the row is drawn on top and hides this tab until it has slid away
-	ff_bice_topbar_resources_open = {
-		context_type = player_context
-		window_name = "ff_bice_topbar_resources_open"
-		parent_window_token = top_bar
-		visible = { has_country_flag = ff_bice_hide_resources }
-		effects = { open_storage_click = { clr_country_flag = ff_bice_hide_resources } }
-	}
 	ff_bice_topbar_resources = {
 		context_type = player_context
 		window_name = "ff_bice_topbar_resources"
 		parent_window_token = top_bar
 		visible = { NOT = { has_country_flag = ff_bice_hide_resources } }
 		effects = { close_click = { set_country_flag = ff_bice_hide_resources } }
+	}
+	ff_bice_topbar_resources_open = {
+		context_type = player_context
+		window_name = "ff_bice_topbar_resources_open"
+		parent_window_token = top_bar
+		visible = { has_country_flag = ff_bice_hide_resources }
+		effects = { open_storage_click = { clr_country_flag = ff_bice_hide_resources } }
 	}
 	ff_bice_topbar_tension = {
 		context_type = player_context
