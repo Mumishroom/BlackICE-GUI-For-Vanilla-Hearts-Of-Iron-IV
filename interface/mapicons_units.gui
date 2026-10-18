@@ -51,9 +51,10 @@ guiTypes = {
 		iconType ={
 			name ="type"
 			spriteType = "GFX_tiled_window_transparent"
-			position = { x = 15 y = 2 }
+			position = { x = 34 y = 14 }	# FF: vanilla icons are much smaller than BlackICE ones, so centre and enlarge them in the box
+			centerPosition = yes
 			alwaystransparent = yes
-			#scale = 0.90
+			scale = 1.6
 		}
 		### Unit count ###
 		instantTextboxType = {
@@ -250,9 +251,10 @@ guiTypes = {
 		iconType ={
 			name ="type"
 			spriteType = "GFX_tiled_window_transparent"
-			position = { x = 15 y = 2 }
+			position = { x = 34 y = 14 }	# FF: vanilla icons are much smaller than BlackICE ones, so centre and enlarge them in the box
+			centerPosition = yes
 			alwaystransparent = yes
-			#scale = 0.90
+			scale = 1.6
 		}
 		
 		instantTextboxType = {
