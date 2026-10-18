@@ -91,10 +91,11 @@ spriteTypes = {
 		texturefile = "gfx/interface/mapicons/onmap_unit_counter.dds"
 	}
 
+	# Faction Freedom: BlackICE counter sprite (the game swaps count_bg to this one when a general portrait is shown)
 	spriteType = {
 		name = "GFX_onmap_unit_counter_empty"
 		noOfFrames = 3
-		texturefile = "gfx/interface/onmap_unit_counter_empty.dds"
+		texturefile = "gfx/interface/mapicons/onmap_unit_counter.dds"
 	}
 
 	# Faction Freedom: BlackICE counter sprite
