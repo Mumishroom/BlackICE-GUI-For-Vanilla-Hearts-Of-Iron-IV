@@ -770,4 +770,26 @@ spriteTypes = {
 		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
 	}
 
+
+	# BlackICE sprites referenced by the GUI but missing from the port
+	spriteType = {
+		name = "GFX_mio_bg"
+		texturefile = "gfx/interface/military_industrial_organization/mio_bg.dds"
+	}
+
+	spriteType = {
+		name = "GFX_trait_tree_exclusive"
+		texturefile = "gfx/interface/trait_window/trait_exclusive.dds"
+	}
+
+	spriteType = {
+		name = "GFX_trait_tree_exclusive_vertical"
+		texturefile = "gfx/interface/trait_window/trait_exclusive.png"
+	}
+
+	# BlackICE points this at a file it does not ship; it is the vertical marker rotated 90 degrees
+	spriteType = {
+		name = "GFX_trait_tree_exclusive_horizontal"
+		texturefile = "gfx/interface/trait_window/trait_exclusive_horizontal.png"
+	}
 }
