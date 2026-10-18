@@ -1,7 +1,0 @@
-scripted_gui = {
-	ff_bice_politics_tab = {
-		context_type = player_context
-		window_name = "ff_bice_politics_tab"
-		parent_window_token = politics_tab
-	}
-}
