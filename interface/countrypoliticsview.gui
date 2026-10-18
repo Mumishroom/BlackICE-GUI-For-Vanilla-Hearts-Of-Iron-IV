@@ -420,17 +420,17 @@ guiTypes = {
 				gridboxtype = {
 					name = "spirit_grid"
 					position = { x = 2 y = 0 }
-					size = { width = 520 height = 130 }
+					size = { width = 660 height = 130 }	# FF: 11 per row, game falls back to the small grid once a row overflows
 					slotsize = { width = 60 height = 60 }
-					max_slots = { x = 11 y = 5 }
+					max_slots = { x = 11 y = 2 }
 					format = "UPPER_LEFT"
 				}
 				gridboxtype = {
 					name = "spirit_grid_over_defined"
 					position = { x = 10 y = 0 }
-					size = { width = 520 height = 100%% }
+					size = { width = 660 height = 100%% }
 					slotsize = { width = 33 height = 32 }
-					max_slots = { x = 19 y = 3 }
+					max_slots = { x = 20 y = 3 }
 					format = "UPPER_LEFT"
 				}
 			}

@@ -60,12 +60,12 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_air_unit_stats_equip_entry"
-		texturefile = "gfx/interface/airview/air_unit_stats_equip_entry.dds"
+		texturefile = "gfx/interface/air_unit_stats_equip_entry.dds"
 	}  # FF: BlackICE style
 
 	spriteType = {
 		name = "GFX_air_unit_stats_bg"
-		texturefile = "gfx/interface/airview/air_unit_stats_bg.dds"
+		texturefile = "gfx/interface/air_unit_stats_bg.dds"
 		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"		
 	}  # FF: BlackICE style
 
@@ -176,7 +176,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_air_base_popup_top_win"
-		texturefile = "gfx/interface/airview/air_base_popup_top_win.dds"
+		texturefile = "gfx/interface/air_base_popup_top_win.dds"
 	}  # FF: BlackICE style
 	
 	spriteType = {
@@ -221,7 +221,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_air_filter_bg"
-		texturefile = "gfx/interface/airview/air_filter_bg.dds"
+		texturefile = "gfx/interface/air_filter_bg.dds"
 	}  # FF: BlackICE style
 
 	spriteType = {
@@ -371,7 +371,7 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_strategicair_mission_types"
 		textureFile = "gfx/interface/strategicair/mission_types.dds"
-		noOfFrames = 17
+		noOfFrames = 19
 	}  # FF: BlackICE style
 
 	spriteType = {
@@ -549,7 +549,7 @@ spriteTypes = {
 		looping = yes
 		play_on_show = yes
 		pause_on_loop = 0.0
-		allwaystransparent = yes
+		alwaystransparent = yes
 		effectFile = "gfx/FX/buttonstate_blendframes.lua"
 	}  # FF: BlackICE style
 	spriteType = {
