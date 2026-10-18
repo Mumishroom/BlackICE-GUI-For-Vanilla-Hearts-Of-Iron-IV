@@ -1059,13 +1059,28 @@ guiTypes = {
 			format = "UPPER_LEFT"
 		}
 
-		gridboxtype = {
-			name = "spirit_grid_over_defined"
+		# FF: small entries are full size now, so the overflow grid scrolls (mouse wheel / slider) instead of shrinking the icons
+		containerWindowType = {
+			name = "ff_spirit_over_defined_scroll"
 			position = { x = 253 y = 30 }
-			size = { width = 300 height = 68 }	# FF: small entries are full size now, so match spirit_grid
-			slotsize = { width = 60 height = 68 }
-			max_slots = { x = 5 y = 1 }
-			format = "UPPER_LEFT"
+			size = { width = 318 height = 68 }
+			verticalScrollbar = "right_vertical_slider"
+			smooth_scrolling = yes
+			scroll_wheel_factor = 34
+
+			background = {
+				name = "Background"
+				spriteType = "GFX_tiled_window_transparent"
+			}
+
+			gridboxtype = {
+				name = "spirit_grid_over_defined"
+				position = { x = 0 y = 0 }
+				size = { width = 300 height = 100%% }
+				slotsize = { width = 60 height = 68 }
+				max_slots_horizontal = 5
+				format = "UPPER_LEFT"
+			}
 		}
 
 		containerWindowType = {
