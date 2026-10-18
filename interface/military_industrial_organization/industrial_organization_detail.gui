@@ -7,16 +7,10 @@ guiTypes = {
 		moveable = yes
 		click_to_front = yes
 	
+		# FF: GFX_mio_bg was never ported from BlackICE, so the window had no background; use the MIO list's frame
 		background = {
-			name = "Background"		
-			spriteType ="GFX_tiled_window_transparent"
-		}
-			
-		iconType = {
-			name = "Background_icon"		
-			spriteType ="GFX_mio_bg"
-			position = { x = 0 y = 0 }
-			alwaystransparent = yes
+			name = "Background"
+			spriteType ="GFX_tiled_window2_1b_border"
 		}
 
 		instantTextboxType = {
