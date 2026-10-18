@@ -32,6 +32,8 @@
  FF_TOPBAR_RES_STEEL_TT:0 "§YSteel§!\nProduced: [?resource_produced@steel|G0]\nImported: [?resource_imported@steel|G0]\nExported: [?resource_exported@steel|R0]\nConsumed: [?resource_consumed@steel|R0]\n--------------\nSurplus: [?resource@steel|Y0]"
  FF_TOPBAR_RES_CHROMIUM:0 "[?resource@chromium|0]"
  FF_TOPBAR_RES_CHROMIUM_TT:0 "§YChromium§!\nProduced: [?resource_produced@chromium|G0]\nImported: [?resource_imported@chromium|G0]\nExported: [?resource_exported@chromium|R0]\nConsumed: [?resource_consumed@chromium|R0]\n--------------\nSurplus: [?resource@chromium|Y0]"
+ FF_TOPBAR_RES_COAL:0 "[?resource@coal|0]"
+ FF_TOPBAR_RES_COAL_TT:0 "§YCoal§!\nProduced: [?resource_produced@coal|G0]\nImported: [?resource_imported@coal|G0]\nExported: [?resource_exported@coal|R0]\nConsumed: [?resource_consumed@coal|R0]\n--------------\nSurplus: [?resource@coal|Y0]"
  FF_TOPBAR_SF_TT_TEXT:0 "§YSpecial Forces§!\nSpecial forces battalions fielded: [?ff_sf_used|Y0] of [?ff_sf_cap|Y0] allowed.\nLimit: [?ff_sf_ratio|Y%0] of regular battalions, but at least [?ff_sf_min|Y0]."
  FF_TOPBAR_NUKES:0 "[?num_of_nukes|0]"
  FF_TOPBAR_NUKES_TT:0 "§YNuclear bombs§!: [?num_of_nukes|Y0]"

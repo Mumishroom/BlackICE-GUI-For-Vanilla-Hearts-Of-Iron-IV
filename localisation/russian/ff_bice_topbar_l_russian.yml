@@ -32,6 +32,8 @@
  FF_TOPBAR_RES_STEEL_TT:0 "§YСталь§!\nДобыча: [?resource_produced@steel|G0]\nИмпорт: [?resource_imported@steel|G0]\nЭкспорт: [?resource_exported@steel|R0]\nРасход: [?resource_consumed@steel|R0]\n--------------\nИзлишек: [?resource@steel|Y0]"
  FF_TOPBAR_RES_CHROMIUM:0 "[?resource@chromium|0]"
  FF_TOPBAR_RES_CHROMIUM_TT:0 "§YХром§!\nДобыча: [?resource_produced@chromium|G0]\nИмпорт: [?resource_imported@chromium|G0]\nЭкспорт: [?resource_exported@chromium|R0]\nРасход: [?resource_consumed@chromium|R0]\n--------------\nИзлишек: [?resource@chromium|Y0]"
+ FF_TOPBAR_RES_COAL:0 "[?resource@coal|0]"
+ FF_TOPBAR_RES_COAL_TT:0 "§YУголь§!\nДобыча: [?resource_produced@coal|G0]\nИмпорт: [?resource_imported@coal|G0]\nЭкспорт: [?resource_exported@coal|R0]\nРасход: [?resource_consumed@coal|R0]\n--------------\nИзлишек: [?resource@coal|Y0]"
  FF_TOPBAR_SF_TT_TEXT:0 "§YСпецназ§!\nБатальонов спецназа: [?ff_sf_used|Y0] из [?ff_sf_cap|Y0] допустимых.\nЛимит: [?ff_sf_ratio|Y%0] от обычных батальонов, но не меньше [?ff_sf_min|Y0]."
  FF_TOPBAR_NUKES:0 "[?num_of_nukes|0]"
  FF_TOPBAR_NUKES_TT:0 "§YЯдерные бомбы§!: [?num_of_nukes|Y0]"

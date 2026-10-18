@@ -155,6 +155,10 @@ guiTypes = {
 			iconType = { name = "chromium_box"   spriteType = "GFX_generic_box_smallest" position = { x = 379 y = 3 } alwaystransparent = yes }
 			iconType = { name = "chromium_icon"  spriteType = "GFX_resources_strip" frame = 6 position = { x = 379 y = 3 } alwaystransparent = yes }
 			instantTextBoxType = { name = "chromium_text" position = { x = 394 y = 8 } font = "hoi_16mbs" text = "FF_TOPBAR_RES_CHROMIUM" maxWidth = 50 maxHeight = 23 format = right pdx_tooltip = "FF_TOPBAR_RES_CHROMIUM_TT" }
+
+			iconType = { name = "coal_box"       spriteType = "GFX_generic_box_smallest" position = { x = 454 y = 3 } alwaystransparent = yes }
+			iconType = { name = "coal_icon"      spriteType = "GFX_resources_strip" frame = 7 position = { x = 454 y = 3 } alwaystransparent = yes }
+			instantTextBoxType = { name = "coal_text" position = { x = 469 y = 8 } font = "hoi_16mbs" text = "FF_TOPBAR_RES_COAL" maxWidth = 50 maxHeight = 23 format = right pdx_tooltip = "FF_TOPBAR_RES_COAL_TT" }
 		}
 	}
 
