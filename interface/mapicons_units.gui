@@ -11,7 +11,6 @@ guiTypes = {
 			name = "count_bg"
 			quadTextureSprite = "GFX_onmap_unit_counter"
 			position = { x = 0 y = 0 }
-			size = { x = 72 y = 40 }	# FF: keep full BlackICE size when the game swaps to the "half" sprite for counters with a general
 			format = center
 		}
 		iconType ={

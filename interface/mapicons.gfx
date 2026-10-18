@@ -57,10 +57,9 @@ spriteTypes = {
 	}	
 	
 
-	# Faction Freedom: BlackICE counter sprite (the game swaps to the "half" sprites when a general portrait is shown)
 	spriteType = {
 		name = "GFX_onmap_unit_counter_half_selected"
-		texturefile = "gfx/interface/mapicons/onmap_unit_counter_selected.dds"
+		texturefile = "gfx/interface/onmap_unit_counter_half_selected.dds"
 		alwaystransparent = yes
 	}
 
@@ -77,11 +76,9 @@ spriteTypes = {
 		alwaystransparent = yes
 	}
 
-	# Faction Freedom: BlackICE counter sprite (the game swaps to the "half" sprites when a general portrait is shown)
 	spriteType = {
 		name = "GFX_onmap_unit_counter_half"
-		noOfFrames = 3
-		texturefile = "gfx/interface/mapicons/onmap_unit_counter.dds"
+		texturefile = "gfx/interface/onmap_unit_counter_half.dds"
 	}
 
 	# Faction Freedom: BlackICE counter sprite
