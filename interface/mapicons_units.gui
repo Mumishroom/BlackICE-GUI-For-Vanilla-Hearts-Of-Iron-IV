@@ -51,10 +51,9 @@ guiTypes = {
 		iconType ={
 			name ="type"
 			spriteType = "GFX_tiled_window_transparent"
-			position = { x = 36 y = 15 }	# FF: centre of the overlay icon box; vanilla icons are 30x12, much smaller than BlackICE ones, so centre and enlarge them
+			position = { x = 36 y = 15 }	# FF: centre of the overlay icon box; vanilla icons are smaller than BlackICE ones. Native scale, a fractional one blurs them
 			centerPosition = yes
 			alwaystransparent = yes
-			scale = 1.5
 		}
 		### Unit count ###
 		instantTextboxType = {
@@ -251,10 +250,9 @@ guiTypes = {
 		iconType ={
 			name ="type"
 			spriteType = "GFX_tiled_window_transparent"
-			position = { x = 36 y = 15 }	# FF: centre of the overlay icon box; vanilla icons are 30x12, much smaller than BlackICE ones, so centre and enlarge them
+			position = { x = 36 y = 15 }	# FF: centre of the overlay icon box; vanilla icons are smaller than BlackICE ones. Native scale, a fractional one blurs them
 			centerPosition = yes
 			alwaystransparent = yes
-			scale = 1.5
 		}
 		
 		instantTextboxType = {
