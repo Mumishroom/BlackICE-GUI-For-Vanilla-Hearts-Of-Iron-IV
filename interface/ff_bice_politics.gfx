@@ -1,0 +1,14 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_diplo_unity_large_bg"
+		textureFile = "gfx/interface/diplo_unity_large_bg.dds"
+	}
+	spriteType = {
+		name = "GFX_diplo_unity_medium_bg"
+		textureFile = "gfx/interface/diplo_unity_medium_bg.dds"
+	}
+	spriteType = {
+		name = "GFX_state_icon"
+		textureFile = "gfx/interface/state.dds"
+	}
+}

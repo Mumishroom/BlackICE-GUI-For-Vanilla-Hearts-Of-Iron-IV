@@ -1,0 +1,773 @@
+# Faction Freedom: sprites used by the BlackICE-style windows (from BlackICE)
+spriteTypes = {
+	spriteType = {
+		name = "GFX_3d_view_placeholder_3"
+		textureFile = "gfx/interface/3d_view_placeholder.dds"
+	}
+
+	frameAnimatedSpriteType = {
+		name = "GFX_MPU_NV_training_anim_strip"
+		texturefile = "gfx//interface//naviesview//icn_training_anim_strip.dds"
+		noOfFrames = 20
+		loadType = "INGAME"
+		transparencecheck = yes
+		animation_rate_fps = 7
+		looping = yes
+		play_on_show = yes
+		pause_on_loop = 0.0
+	}
+
+	progressbartype = {
+		name = "GFX_activegoal_progress_pol"
+		color = { 0.0 0.5 0.0 }
+		colortwo = { 1.0 0.0 0.0 }
+		textureFile1 = "gfx//interface//politics_view//pol_goal_progress_pol.dds"
+		textureFile2 = "gfx//interface//politics_view//pol_goal_progress_bg_pol.dds"
+		size = { x = 287 y = 6 }
+		effectFile = "gfx/FX/progress_startend.lua"
+		horizontal = yes
+	}
+
+	spriteType = {
+		name = "GFX_air_factory_icon"
+		textureFile = "gfx//interface//air_assembly_icon.dds"
+	}
+
+	progressbartype = {
+		name = "GFX_armieslist_bar_org"
+		textureFile1 = "gfx/interface/navieslist_bar_org.dds"
+		textureFile2 = "gfx/interface/navieslist_bar_bg.dds"
+		size = {x=27 y=6}
+		effectFile = "gfx/FX/progress.lua"
+		horizontal = yes
+	}
+
+	progressbartype = {
+		name = "GFX_armieslist_bar_str"
+		textureFile1 = "gfx/interface/navieslist_bar_str.dds"
+		textureFile2 = "gfx/interface/navieslist_bar_bg.dds"
+		size = {x=27 y=6}
+		effectFile = "gfx/FX/progress.lua"
+		horizontal = yes
+	}
+
+	spriteType = {
+		name = "GFX_assign_group_button_small"
+		texturefile = "gfx//interface//theater//assign_group_button_small.dds"
+		noOfFrames = 4
+	}
+
+	spriteType = {
+		name = "GFX_bottom_divider"
+		textureFile = "gfx//interface//division_designer//bottom_divider.dds"
+	}
+
+	spriteType = {   
+		name = "GFX_build_icon_bottom"
+	 	textureFile = "gfx/interface/buildings/build_icon_bottom.dds"
+	}
+
+	spriteType = {    
+		name = "GFX_build_icon_bottom1"
+	 	textureFile = "gfx/interface/buildings/build_icon_bottom1.dds"
+	}
+
+	spriteType = {    
+		name = "GFX_build_icon_bottom2"
+	 	textureFile = "gfx/interface/buildings/build_icon_bottom2.dds"
+	}
+
+	spriteType = { 
+		name = "GFX_building_standing_entry_stateview_wide"
+		textureFile = "gfx/interface/state_view/building_standing_entry_stateview_wide.dds"
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+	}
+
+	textSpriteType = {
+		name = "GFX_button_123x34_transparent"
+		texturefile = "gfx//interface//button_123x34_transparent.tga"
+		noOfFrames = 1
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+
+	spriteType = {  
+		name = "GFX_button_171x34" 
+		texturefile = "gfx//interface//button_171x34.dds"
+	}
+
+	spriteType = {
+		name = "GFX_capital_shipyard_icon"
+		textureFile = "gfx//interface//captial_shipyard_icon.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_checkbox_one_frame"
+		texturefile = "gfx//interface//construction_lines//checkbox_one_frame.dds"
+		noOfFrames = 2
+	}
+
+	spriteType = {
+		name = "GFX_checkbox_small_red_dots"
+		texturefile = "gfx//interface//decisionview//checkbox_small_red.tga"
+		noOfFrames = 3
+	}
+
+	spriteType = {
+		name = "GFX_convoy_weight_bg"
+		texturefile = "gfx/interface/generic_small_bg.dds"
+	}
+
+	progressbartype = {
+		name = "GFX_deployment_entry_progressbar_equipment"
+		color = { 1.0 1.0 1.0 }
+		colortwo = { 1.0 1.0 1.0 }
+		textureFile1 = "gfx/interface/recruit_deploymentview/deployment_entry_progressbar.dds"
+		textureFile2 = "gfx/interface/recruit_deploymentview/deployment_entry_progressbar_bg.dds"
+		size = { x = 68 y = 12 }
+		effectFile = "gfx/FX/progress_startend.lua"
+	}
+
+	progressbartype = {
+		name = "GFX_deployment_entry_progressbar_training"
+		color = { 1.0 1.0 1.0 }
+		colortwo = { 1.0 1.0 1.0 }
+		textureFile1 = "gfx/interface/recruit_deploymentview/deployment_entry_progressbar.dds"
+		textureFile2 = "gfx/interface/recruit_deploymentview/deployment_entry_progressbar_bg.dds"
+		size = { x = 68 y = 12 }
+		effectFile = "gfx/FX/progress_startend.lua"
+	}
+
+	spriteType = {
+		name = "GFX_diplo_action_incoming_lend_lease_bg"
+		textureFile = "gfx//interface//diplomacy_view//diplo_action_incoming_lend_lease_bg.dds"		
+	}
+
+	spriteType = {
+		name = "GFX_diplo_upper_win_short_bg"
+		textureFile = "gfx/interface/diplomacy_view/diplo_upper_win_short_bg.dds"
+	}
+
+	spriteType = {
+		name = "GFX_div_unit_list_header"
+		texturefile = "gfx/interface/unitcontrol/division_unit_list_header.dds"
+	}
+
+	spriteType = {
+		name = "GFX_division_designer_content"
+		textureFile = "gfx//interface//division_designer//division_designer_content.dds"
+	}
+
+	spriteType = {
+		name = "GFX_division_designer_stats"
+		textureFile = "gfx//interface//division_designer//division_designer_stats.dds"
+	}
+
+	spriteType = {  
+		name = "GFX_edittextbox_tab_bg"
+		texturefile = "gfx/interface/edittextbox_tab_bg.dds"
+		alwaystransparent = yes
+	}
+
+	spriteType = {
+		name = "GFX_equipment_artillery_icon_market"
+		texturefile = "gfx/texticons/market/market_equipment_artillery_bice.tga"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_equipment_infantry_icon_market"
+		texturefile = "gfx/texticons/market/market_equipment_infantry_bice.tga"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_equipment_item_large_emboss"
+		textureFile = "gfx//interface//production_lines//equipment_item_large_emboss.dds"
+	}
+
+	spriteType = {
+		name = "GFX_equipment_item_large_naval"
+		textureFile = "gfx//interface//production_lines//equipment_item_large_naval.dds"
+	}
+
+	spriteType = {
+		name = "GFX_equipment_support_icon_market"
+		texturefile = "gfx/texticons/market/market_equipment_support_bice.tga"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_equipment_upgrade_designer_small_bg"
+		texturefile = "gfx/interface/equipmentdesigner/equipment_upgrade_designer_small_bg.tga"
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"				
+	}
+
+	spriteType = {
+		name = "GFX_equipment_vehicles_icon_market"
+		texturefile = "gfx/texticons/market/market_equipment_vehicles_bice.tga"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_event_unit_leader_bottom_win_end"
+		texturefile = "gfx/interface/event_unit_leader_bottom_win_2.dds"
+		allwaystransparent = yes	
+	}
+
+	corneredTileSpriteType = {
+		name = "GFX_event_unit_leader_tileable_bottom_section"
+		size = { x = 580 y = 66 }
+		textureFile = "gfx/interface/event_unit_leader_tileable_midsection.dds"
+		borderSize = { x = 290 y = 16 }
+		allwaystransparent = yes			
+	}
+
+	corneredTileSpriteType = {
+		name = "GFX_event_unit_leader_tileable_midsection"
+		size = { x = 580 y = 66 }		
+		textureFile = "gfx/interface/event_unit_leader_tileable_midsection.dds"
+		borderSize = { x = 290 y = 16 }
+		allwaystransparent = yes			
+	}
+
+	spriteType = {
+		name = "GFX_event_unit_leader_top_win"
+		texturefile = "gfx/interface/event_unit_leader_top_win.dds"
+		allwaystransparent = yes			
+	}
+
+	spriteType = {
+		name = "GFX_fuel_consume_bg"
+		texturefile = "gfx/interface/fuel_consume_bg.dds"
+	}
+
+	spriteType = {
+		name = "GFX_garrison_template_background"
+		textureFile = "gfx/interface/state_view/garrison_template_bg.dds"
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+	}
+
+	spriteType = {
+		name = "GFX_generic_box_smallest_100"
+		texturefile = "gfx/interface/generic_box_smallest_100px.dds"
+	}
+
+	spriteType = {
+		name = "GFX_generic_box_smallest_115px"
+		texturefile = "gfx/interface/generic_box_smallest_115px.dds"
+	}
+
+	spriteType = {
+		name = "GFX_generic_box_smallest_200px"
+		texturefile = "gfx/interface/generic_box_smallest_200px.dds"
+	}
+
+	spriteType = {
+		name = "GFX_generic_text_bg_50"
+		texturefile = "gfx/interface/generic_text_bg_50.dds"
+	}
+
+	textSpriteType = {
+		name = "GFX_government_button2"
+		texturefile = "gfx//interface//core//government_button2.dds"
+		noOfFrames = 1
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+
+	spriteType = {
+		name = "GFX_header_armyview_bg"
+		texturefile = "gfx/interface/headers/header_armyview_bg.dds"
+	}
+
+	spriteType = {
+		name = "GFX_header_bg_444"
+		texturefile = "gfx/interface/headers/header_bg_444.dds"
+	}
+
+	spriteType = {
+		name = "GFX_header_bg_500"
+		textureFile = "gfx/interface/headers/header_bg_500.dds"
+	}
+
+	spriteType = {
+		name = "GFX_header_bg_537"
+		texturefile = "gfx/interface/headers/header_bg_537.dds"
+	}
+
+	spriteType = {
+		name = "GFX_header_bg_548"
+		texturefile = "gfx/interface/headers/header_bg_548.dds"
+	}
+
+	spriteType = {
+		name = "GFX_header_bg_640"
+		textureFile = "gfx/interface/headers/header_bg_640.dds"
+	}
+
+	spriteType = {
+		name = "GFX_header_decision_bg"
+		texturefile = "gfx/interface/headers/header_decision_bg.dds"
+	}
+
+	spriteType = {
+		name = "GFX_header_diplo_bg"
+		texturefile = "gfx/interface/headers/header_diplo_bg.dds"
+	}
+
+	spriteType = {
+		name = "GFX_header_diplo_player_bg"
+		texturefile = "gfx/interface/headers/header_diplo_player_bg.dds"
+	}
+
+	spriteType = {
+		name = "GFX_header_prod_bg"
+		texturefile = "gfx/interface/headers/header_bg_750.dds"
+	}
+
+	spriteType = {
+		name = "GFX_header_small"
+		texturefile = "gfx/interface/headers/header_small.dds"
+	}
+
+	spriteType = {
+		name = "GFX_header_trade_bg"
+		texturefile = "gfx/interface/headers/header_trade_bg.dds"
+	}
+
+	spriteType = {
+		name = "GFX_hq_background"
+		textureFile = "gfx//interface//division_designer//hq_bg.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_entry_bg_5"
+		texturefile = "gfx/interface/idea_entry_bg_5.dds"
+		noOfFrames = 2
+	}
+
+	spriteType = {
+		name = "GFX_intel_ledger_tech_army"
+		textureFile = "gfx/interface/intel_ledger/intel_ledger_tech_army_icon.dds"
+	}
+
+	spriteType = {
+		name = "GFX_intelligence_icon"
+		texturefile = "gfx/interface/intelligence_icon.dds"
+	}
+
+	spriteType = { 
+		name = "GFX_land_battle_top"
+		texturefile = "gfx/interface/land_battle_top.dds"
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+		alwaystransparent = yes
+	}
+
+	spriteType = {
+		name = "GFX_main_screens_bottom_pol"
+		texturefile = "gfx//interface//headers//main_screens_bottom_pol.dds"
+	}
+
+	spriteType = {
+		name = "GFX_middle_divider"
+		textureFile = "gfx//interface//division_designer//middle_divider.dds"
+	}
+
+	spriteType = {
+		name = "GFX_misc_constructions"
+		textureFile = "gfx//interface//misc_building_construction.dds"
+	}
+
+	corneredTileSpriteType = {
+		name = "GFX_mpu_tiled_dialog"
+		size= {x=96 y=96 }
+		textureFile ="gfx/mpu/mpu_tiled_dialog.dds"
+		borderSize = { x=32 y=32 }
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+	}
+
+	corneredTileSpriteType = {
+		name = "GFX_mpu_tiled_header"
+		size= { x=543 y=41 }
+		textureFile = "gfx/interface/header_bg.dds"
+		borderSize = { x=64 y=3 }
+		tilingCenter = yes
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+	}
+
+	spriteType = {
+		name = "GFX_naval_deploy_button_short"
+		textureFile = "gfx//interface//production_lines//naval_deploy_button_short.dds"
+	}
+
+	spriteType = {
+		name = "GFX_naval_factory_bg"
+		textureFile = "gfx//interface//production_lines//naval_production_entry.dds"
+	}
+
+	spriteType = { 
+		name = "GFX_navalcombat_air_icon_fighter_equipment"
+		texturefile = "gfx/interface/navalcombat/airwings/fighter_plane.dds"
+		noOfFrames = 2
+	}
+
+	spriteType = {
+		name = "GFX_navy_overview_ship_entry"
+		textureFile = "gfx//interface//navy_overview_ship_entry.dds"
+	}
+
+	frameAnimatedSpriteType = {
+		name = "GFX_new_equipment_emboss_glow"
+		texturefile = "gfx/interface/new_equipment_emboss_glow.dds"
+		noOfFrames = 3
+		animation_rate_fps = 1.5
+		looping = yes
+		play_on_show = yes
+		pause_on_loop = 0.0
+		allwaystransparent = yes
+		effectFile = "gfx/FX/buttonstate_blendframes.lua"
+	}
+
+	spriteType = {
+		name = "GFX_outdated_equipment_emboss_overlay"
+		textureFile = "gfx//interface//production_lines//outdated_equipment_emboss_overlay.dds"
+	}
+
+	spriteType = {
+		name = "GFX_overview_army_filter_entry"
+		textureFile = "gfx//interface//overview_army_filter_entry.dds"
+	}
+
+	spriteType = {
+		name = "GFX_overview_filter_entry_highlight_small"
+		textureFile = "gfx//interface//overview_filter_entry_highlight_small.dds"
+	}
+
+	spriteType = {
+		name = "GFX_pol_div_template_popup_bg"
+		texturefile = "gfx//interface//pol_div_template_popup_bg.dds"
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+	}
+
+	spriteType = {
+		name = "GFX_pol_goal_progress_frame_pol"
+		textureFile = "gfx//interface//politics_view//pol_goal_progress_frame_pol.dds"
+	}
+
+	spriteType = {
+		name = "GFX_pol_pie_chart_bg"
+		textureFile = "gfx/interface/pol_pie_chart_bg.dds"
+	}
+
+	spriteType = {
+		name = "GFX_pol_piechart_bg_a"
+		textureFile = "gfx//interface//politics_view//pol_pollist_bg.dds"
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"		
+	}
+
+	spriteType = {
+		name = "GFX_prod_entry_resource_naval_bg"
+		textureFile = "gfx//interface//production_lines//prod_entry_resource_naval_bg.dds"
+	}
+
+	spriteType = {
+		name = "GFX_prod_land_equipment_item_large_railway"
+		textureFile = "gfx//interface//production_lines//prod_land_equipment_item_large_railway.dds"
+	}
+
+	progressbartype = {
+		name = "GFX_prod_progress_bar4"
+		color = { 0.0 0.5 0.0 }
+		colortwo = { 1.0 0.0 0.0 }
+		textureFile1 = "gfx\\interface\\production_lines\\prod_progress_bar4.dds"
+		textureFile2 = "gfx\\interface\\production_lines\\prod_progress_bar4_bg.dds"
+		size = { x = 230 y = 21 }
+		effectFile = "gfx/FX/progress_startend.lua"
+	}
+
+	spriteType = {
+		name = "GFX_repair_icon"
+		textureFile = "gfx//interface///repair.dds"
+	}
+
+	spriteType = {
+		name = "GFX_research_boni_bg"
+		textureFile = "gfx//interface//research_boni_bg.dds"
+	}
+
+	progressbartype = {
+		name = "GFX_research_progressbar"
+		color = { 1.0 1.0 1.0 }
+		colortwo = { 1.0 1.0 1.0 }
+		textureFile1 = "gfx/interface/research_progressbar.dds"
+		textureFile2 = "gfx/interface/tiles/transparent_11_10.dds"
+		size = { x = 392 y = 4 }
+		effectFile = "gfx/FX/progress_startend.lua"
+	}
+
+	spriteType = {
+		name = "GFX_resource_constructions"
+		textureFile = "gfx//interface//resource_building_construction.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ruling_party_info_small"
+		textureFile = "gfx//interface//politics_view//ruling_party_info_small_bg.dds"
+	}
+
+	spriteType = {
+		name = "GFX_selected_divisions_background"
+		texturefile = "gfx/interface/selected_divisions_background.dds"
+	}
+
+	spriteType = {
+		name = "GFX_selected_theatre_frame_small"
+		texturefile = "gfx//interface//theater//selected_theatre_frame_small.dds"
+	}
+
+	spriteType = {
+		name = "GFX_set_need_amount_trade_button"
+		texturefile = "gfx/interface/tradeview/set_need_amount_button.dds"
+	}
+
+	progressbartype = {
+		name = "GFX_shared_building_damage_bar"
+		color = { 1.0 1.0 1.0 }
+		colortwo = { 1.0 1.0 1.0 }
+		textureFile1 = "gfx/interface/building_damage_bar.dds"
+		textureFile2 = "gfx/interface/building_damage_bar_bg.dds"
+		size = { x = 29 y = 4 }
+		effectFile = "gfx/FX/progress_startend.lua"
+	}
+
+	textSpriteType = {
+		name = "GFX_small_button_71x26_grn"
+		textureFile = "gfx//interface//core//small_button_71x26_grn.dds"
+	}
+
+	textSpriteType = {
+		name = "GFX_sort_button_120x29_2"
+		texturefile = "gfx//interface//sort_button_120x29_2.png"
+		noOfFrames = 2
+	}
+
+	spriteType = {
+		name = "GFX_specialization_bg"
+		texturefile = "gfx/interface/special_project/specialization_bg.dds"
+	}
+
+	spriteType = {
+       name = "GFX_tab_extension"
+       textureFile = "gfx/interface/intel_ledger/tab_extension.dds"
+    }
+
+	spriteType = {
+		name = "GFX_tactics_list_header"
+		texturefile = "gfx/interface/tactics_list_header.dds"
+	}
+
+	spriteType = {
+		name = "GFX_tank_factory_icon"
+		textureFile = "gfx//interface//tank_assembly_icon.dds"
+	}
+
+	SpriteType = {  
+		name = "GFX_template_header_bg_380"
+		textureFile = "gfx//interface//headers//template_header_bg_380.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_template_header_bg_560x95"
+		textureFile = "gfx//interface//headers//template_header_bg_560x95.dds"
+	}
+
+	spriteType = {
+		name = "GFX_theater_action_bar_bg"
+		texturefile = "gfx//interface//theater//theater_action_bar.dds"
+	}
+
+	spriteType = {
+		name = "GFX_theater_group_bg_small"
+		texturefile = "gfx//interface//theater//theater_group_bg_small.dds"
+		noOfFrames = 4
+	}
+
+	spriteType = {
+		name = "GFX_theater_priority_strip"
+		textureFile = "gfx/interface/theater/div_priority_strip.dds"
+		noOfFrames = 6
+	}
+
+	corneredTileSpriteType = {
+		name = "GFX_tiled_generic_overlay_bg2"
+		size= { x=513 y=576 }
+		textureFile = "gfx//interface//tiles//tiled_generic_overlay_bg2.dds"
+		borderSize = { x=256 y=268 }
+		tilingCenter = yes
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+		alwaystransparent = yes			
+	}
+
+	corneredTileSpriteType = {
+		name = "GFX_tiled_window2_1b_border_w_close"
+		size= { x=192 y=192 }
+		textureFile = "gfx//interface//tiles//tiled_window2_1b_border_w_close.dds"
+		borderSize = { x=64 y=64 }
+		tilingCenter = yes
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+	}
+
+	corneredTileSpriteType = {
+		name = "GFX_tiled_window2_2b_border_hollow"
+		size= { x=192 y=192 }
+		textureFile = "gfx//interface//tiles//tiled_window2_2b_border_hollow.dds"
+		borderSize = { x=64 y=64 }
+		tilingCenter = yes
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+	}
+
+	corneredTileSpriteType = {
+		name = "GFX_tiled_window_1b_border_hollow"
+		size= { x=192 y=192 }
+		textureFile = "gfx//interface//tiles//tiled_window_1b_border_hollow.dds"
+		borderSize = { x=64 y=64 }
+		tilingCenter = yes
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+	}
+
+	spriteType = {
+		name = "GFX_trade_header_small"
+		texturefile = "gfx/interface/headers/trade_header_small.dds"
+	}
+
+	spriteType = {
+		name = "GFX_transparent_11_10"
+		texturefile = "gfx//interface//tiles//transparent_11_10.dds"
+	}
+
+	spriteType = {
+		name = "GFX_transparent_132_18"
+		texturefile = "gfx//interface//tiles//transparent_132_18.dds"
+	}
+
+	corneredTileSpriteType = {
+		name = "GFX_transparent_button"
+		size= { x=60 y=23 }
+		textureFile = "gfx/interface/tiles/transparent_40_18.dds"
+		borderSize = { x=10 y=10 }
+		tilingCenter = yes
+	}
+
+	spriteType = {
+		name = "GFX_unit_amph_armor_icon_market"
+		texturefile = "gfx/texticons/market/market_armor_amph_bice.tga"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_unit_bomber_air_icon_market"
+		texturefile = "gfx/texticons/market/market_air_bomber_bice.tga"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_unit_cas_air_icon_market"
+		texturefile = "gfx/texticons/market/market_air_cas_bice.tga"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_unit_fighter_air_icon_market"
+		texturefile = "gfx/texticons/market/market_air_fighter_bice.tga"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_unit_heavy_armor_icon_market"
+		texturefile = "gfx/texticons/market/market_armor_heavy_bice.tga"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_unit_light_armor_icon_market"
+		texturefile = "gfx/texticons/market/market_armor_light_bice.tga"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_unit_medium_armor_icon_market"
+		texturefile = "gfx/texticons/market/market_armor_medium_bice.tga"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {    
+		name = "GFX_unit_stats_list_entry_bg_long"  
+		texturefile = "gfx//interface//scripted_gui//unit_stats_list_entry_long.dds"
+	}
+
+	spriteType = {    
+		name = "GFX_unit_stats_list_entry_bg_med"      
+		texturefile = "gfx//interface//scripted_gui//unit_stats_list_entry_med.dds"
+	}
+
+	spriteType = {
+		name = "GFX_unit_support_armor_icon_market"
+		texturefile = "gfx/texticons/market/market_armor_support_bice.tga"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_unit_transport_air_icon_market"
+		texturefile = "gfx/texticons/market/market_air_transport_bice.tga"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_unitlist_unassigned_unitview_bg"
+		texturefile = "gfx/interface/unitcontrol/unitlist_unassigned_unitview_bg.dds"
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+	}
+
+	spriteType = {
+		name = "GFX_unitlist_unitinfo_button_army"
+		texturefile = "gfx/interface/unitcontrol/unitlist_unitinfo_button_army.dds"
+	}
+
+
+	# --- generic BlackICE backgrounds (defined in BlackICE countrytechtreeview.gfx)
+	corneredTileSpriteType = {
+		name = "GFX_tiled_black_sharp_bg"
+		size= { x=96 y=96 }
+		textureFile = "gfx//interface//tiles//tiled_black_sharp_bg.dds"
+		borderSize = { x=2 y=2 }    
+		tilingCenter = yes
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+	}
+
+	corneredTileSpriteType = {
+		name = "GFX_tiled_plain_bg_no_corner"
+		size= { x=48 y=48 }
+		textureFile = "gfx//interface//tiles//tiled_plain_bg_no_corner.dds"
+		borderSize = { x=16 y=16 }
+		tilingCenter = yes
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+	}
+
+	corneredTileSpriteType = {
+		name = "GFX_tiled_plain_bg_small_red"
+		size= { x=48 y=48 }
+		textureFile = "gfx//interface//tiles//tiled_plain_bg_small_red.dds"
+		borderSize = { x=16 y=16 }
+		tilingCenter = yes
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+	}
+
+	corneredTileSpriteType = {
+		name = "GFX_tiled_window_silver"
+		size= { x=192 y=192 }
+		textureFile = "gfx//interface//tiles//tiled_window_silver.dds"
+		borderSize = { x=64 y=64 }
+		tilingCenter = yes
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+	}
+
+}

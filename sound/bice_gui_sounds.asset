@@ -1,0 +1,91 @@
+# BlackICE GUI: sounds for the top bar menu buttons (from BlackICE sound_bice.asset + gui_sound_effects.asset)
+
+sound = {
+	name = "click_tech_tab_01"
+	file = "menu/click_tech_tab.wav"
+}
+sound = {
+	name = "click_diplomacy_tab_01"
+	file = "menu/click_diplomacy_tab.wav"
+}
+sound = {
+	name = "click_espionage_tab_01"
+	file = "menu/click_espionage_tab.wav"
+}
+sound = {
+	name = "click_trade_tab_01"
+	file = "menu/click_trade_tab.wav"
+}
+sound = {
+	name = "click_construction_tab_01"
+	file = "menu/click_construction_tab.wav"
+}
+sound = {
+	name = "click_ledger_tab_01"
+	file = "menu/click_ledger_tab.wav"
+}
+sound = {
+	name = "click_training_tab_01"
+	file = "menu/click_training_tab.wav"
+}
+sound = {
+	name = "click_production_tab_01"
+	file = "menu/click_production_tab.wav"
+}
+
+soundeffect = {
+	name = click_tech_tab
+	sounds = {
+		sound = click_tech_tab_01
+	}
+	volume = 0.60
+}
+soundeffect = {
+	name = click_diplomacy_tab
+	sounds = {
+		sound = click_diplomacy_tab_01
+	}
+	volume = 0.60
+}
+soundeffect = {
+	name = click_espionage_tab
+	sounds = {
+		sound = click_espionage_tab_01
+	}
+	volume = 0.60
+}
+soundeffect = {
+	name = click_trade_tab
+	sounds = {
+		sound = click_trade_tab_01
+	}
+	volume = 0.60
+}
+soundeffect = {
+	name = click_construction_tab
+	sounds = {
+		sound = click_construction_tab_01
+	}
+	volume = 0.60
+}
+soundeffect = {
+	name = click_ledger_tab
+	sounds = {
+		sound = click_ledger_tab_01
+	}
+	volume = 0.60
+}
+soundeffect = {
+	name = click_training_tab
+	sounds = {
+		sound = click_training_tab_01
+	}
+	volume = 0.60
+}
+soundeffect = {
+	name = click_production_tab
+	sounds = {
+		sound = click_production_tab_01
+	}
+	volume = 0.60
+}

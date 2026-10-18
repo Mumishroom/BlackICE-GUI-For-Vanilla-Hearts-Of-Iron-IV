@@ -1,0 +1,64 @@
+guiTypes = {
+	# BlackICE politics view: number of states and population (vanilla data only)
+	containerWindowType = {
+		name = "ff_bice_politics_tab"
+		position = { x = 509 y = -59 }
+		size = { width = 270 height = 100 }
+
+		containerWindowType = {
+			name = "states"
+			position = { x = 10 y = -2 }
+			iconType = {
+				name = "states_background"
+				spriteType = "GFX_diplo_unity_medium_bg"
+				position = { x = 77 y = 186 }
+				pdx_tooltip = "FF_POLITICS_STATES_TT"
+			}
+			iconType = {
+				name = "states_icon"
+				spriteType = "GFX_state_icon"
+				position = { x = 96 y = 188 }
+				alwaystransparent = yes
+			}
+			instantTextBoxType = {
+				name = "states_value"
+				position = { x = 80 y = 214 }
+				font = "hoi_18mbs"
+				text = "FF_POLITICS_STATES"
+				format = centre
+				maxWidth = 58
+				maxHeight = 40
+				fixedsize = yes
+				alwaystransparent = yes
+			}
+		}
+
+		containerWindowType = {
+			name = "pop"
+			position = { x = -66 y = -2 }
+			iconType = {
+				name = "population_background"
+				spriteType = "GFX_diplo_unity_large_bg"
+				position = { x = 77 y = 186 }
+				pdx_tooltip = "FF_POLITICS_POP_TT"
+			}
+			iconType = {
+				name = "population_icon"
+				spriteType = "GFX_population_icon"
+				position = { x = 93 y = 190 }
+				alwaystransparent = yes
+			}
+			instantTextBoxType = {
+				name = "population_value"
+				position = { x = 70 y = 223 }
+				font = "hoi_18mbs"
+				text = "FF_POLITICS_POP"
+				format = centre
+				maxWidth = 78
+				maxHeight = 20
+				fixedsize = yes
+				alwaystransparent = yes
+			}
+		}
+	}
+}

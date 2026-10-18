@@ -1,0 +1,9 @@
+﻿l_german:
+ ADD_NEW_AIRWING:0 "Add new Air Wing"
+ ALL_SHORTCUT_TEXT:0 "§YShift-click§! to select the whole stockpile."
+ ALL_SHORTCUT_TEXT_LEND_LEASE:0 "$ALL_SHORTCUT_TEXT$"
+ DESIGNER_DUPLICATE_DESC:0 "Duplicate to create a new template for §Gfree§! when saving this template. The original template will remain unchanged."
+ LOCAL_GARRISON_NEED_TT:0 "How many §YUnits§! of the §YGarrison Template§! assigned to this state are needed."
+ MISC_CONSTRUCTIONS:0 "§YMiscellaneous Buildings§!"
+ RESOURCE_CONSTRUCTIONS:0 "§YResource Buildings§!"
+ PRODUCTION_LINE_CANCEL_SHIP_REFIT:0 "§GClick§! to §RScuttle§! this Ship which is being refit."

@@ -1,0 +1,9 @@
+﻿l_russian:
+ ADD_NEW_AIRWING:0 "Добавить новое авиакрыло"
+ ALL_SHORTCUT_TEXT:0 "§YShift+клик§!, чтобы выбрать весь запас."
+ ALL_SHORTCUT_TEXT_LEND_LEASE:0 "$ALL_SHORTCUT_TEXT$"
+ DESIGNER_DUPLICATE_DESC:0 "Создать копию шаблона §Gбесплатно§! при сохранении. Исходный шаблон останется без изменений."
+ LOCAL_GARRISON_NEED_TT:0 "Сколько §Yподразделений§! §Yгарнизонного шаблона§! этого региона требуется."
+ MISC_CONSTRUCTIONS:0 "§YПрочие постройки§!"
+ RESOURCE_CONSTRUCTIONS:0 "§YРесурсные постройки§!"
+ PRODUCTION_LINE_CANCEL_SHIP_REFIT:0 "§GНажмите§!, чтобы §Rзатопить§! корабль на переоборудовании."

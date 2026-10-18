@@ -1,0 +1,282 @@
+guiTypes = {
+	# Faction Freedom: BlackICE-style top bar values.
+	# Layout and fonts copied from BlackICE (_BI_dynamic_topbar_scripted_gui.gui),
+	# all values are read from vanilla game variables, no BlackICE mechanics needed.
+
+	### ROW 1 #################################################################
+
+	containerWindowType = {
+		name = "ff_bice_topbar_political_power"
+		position = { x = 0 y = 5 }
+		size = { width = 90 height = 30 }
+
+		instantTextBoxType = {
+			name = "political_power_text"
+			position = { x = 24 y = 3 }
+			font = "hoi_20bs"
+			text = "FF_TOPBAR_POLITICAL_CURRENT"
+			maxWidth = 58
+			maxHeight = 23
+			format = centre
+			alwaystransparent = yes
+		}
+	}
+
+	containerWindowType = {
+		name = "ff_bice_topbar_command_power"
+		position = { x = 600 y = 5 }
+		size = { width = 90 height = 30 }
+
+		instantTextBoxType = {
+			name = "command_power_text"
+			position = { x = 24 y = 3 }
+			font = "hoi_20bs"
+			text = "FF_TOPBAR_COMMAND_POWER_CURRENT"
+			maxWidth = 58
+			maxHeight = 23
+			format = centre
+			alwaystransparent = yes
+		}
+	}
+
+	containerWindowType = {
+		name = "ff_bice_topbar_container"
+		position = { x = 0 y = 0 }
+		size = { width = 420 height = 40 }
+
+		instantTextBoxType = {
+			name = "stability_text"
+			position = { x = 119 y = 8 }
+			font = "hoi_20bs"
+			text = "FF_TOPBAR_STABILITY_CURRENT"
+			maxWidth = 72
+			maxHeight = 23
+			format = centre
+			alwaystransparent = yes
+		}
+		instantTextBoxType = {
+			name = "war_support_text"
+			position = { x = 226 y = 8 }
+			font = "hoi_20bs"
+			text = "FF_TOPBAR_WAR_SUPPORT_CURRENT"
+			maxWidth = 72
+			maxHeight = 23
+			format = centre
+			alwaystransparent = yes
+		}
+		instantTextBoxType = {
+			name = "manpower_text"
+			position = { x = 329 y = 8 }
+			font = "hoi_20bs"
+			text = "FF_TOPBAR_MANPOWER_CURRENT"
+			maxWidth = 72
+			maxHeight = 23
+			format = centre
+			alwaystransparent = yes
+		}
+	}
+
+	### ROW 2: special forces slot (BlackICE position) ########################
+
+	containerWindowType = {
+		name = "ff_bice_topbar_special_forces"
+		position = { x = 610 y = 37 }
+		size = { width = 90 height = 30 }
+
+		iconType = {
+			name = "special_forces_icon"
+			spriteType = "GFX_special_forces_icon"
+			position = { x = 0 y = 6 }
+			frame = 3
+		}
+		instantTextBoxType = {
+			name = "special_forces_text"
+			position = { x = 20 y = 5 }
+			text = "[FF_GetSpecialForcesTopbar]"
+			font = "hoi_18mbs"
+			maxWidth = 62
+			maxHeight = 24
+			format = centre
+			pdx_tooltip = "FF_TOPBAR_SPECIAL_FORCES_TT"
+		}
+	}
+
+	### ROW 3: resource surplus (in place of the BlackICE storage row) ##########
+
+	containerWindowType = {
+		name = "ff_bice_topbar_resources"
+		position = { x = -608 y = 116 }
+		show_position = { x = 0 y = 116 }
+		size = { width = 100% height = 100% }
+		show_animation_type = decelerated
+		hide_animation_type = decelerated
+		animation_time = 600
+
+		containerWindowType = {
+			name = "storage_entry"
+			position = { x = 0 y = 1 }
+			size = { width = 700 height = 30 }
+			Orientation = upper_left
+
+			iconType = {
+				name = "background"
+				spriteType = "GFX_storage_bg"
+				position = { x = 0 y = 0 }
+				alwaystransparent = yes
+			}
+			buttonType = {
+				name = "close"
+				spriteType = "GFX_storage_right_bg"
+				position = { x = 609 y = 0 }
+				pdx_tooltip = "FF_TOPBAR_RES_HIDE"
+			}
+
+			# entry i: box/icon at x = 75*i - 2, value at x = 75*i + 13
+			iconType = { name = "oil_box"       spriteType = "GFX_generic_box_smallest" position = { x = -2 y = 3 } alwaystransparent = yes }
+			iconType = { name = "oil_icon"      spriteType = "GFX_resources_strip" frame = 1 position = { x = -2 y = 3 } alwaystransparent = yes }
+			instantTextBoxType = { name = "oil_text" position = { x = 13 y = 8 } font = "hoi_16mbs" text = "FF_TOPBAR_RES_OIL" maxWidth = 50 maxHeight = 23 format = right pdx_tooltip = "FF_TOPBAR_RES_OIL_TT" }
+
+			iconType = { name = "aluminium_box"  spriteType = "GFX_generic_box_smallest" position = { x = 73 y = 3 } alwaystransparent = yes }
+			iconType = { name = "aluminium_icon" spriteType = "GFX_resources_strip" frame = 2 position = { x = 73 y = 3 } alwaystransparent = yes }
+			instantTextBoxType = { name = "aluminium_text" position = { x = 88 y = 8 } font = "hoi_16mbs" text = "FF_TOPBAR_RES_ALUMINIUM" maxWidth = 50 maxHeight = 23 format = right pdx_tooltip = "FF_TOPBAR_RES_ALUMINIUM_TT" }
+
+			iconType = { name = "rubber_box"     spriteType = "GFX_generic_box_smallest" position = { x = 148 y = 3 } alwaystransparent = yes }
+			iconType = { name = "rubber_icon"    spriteType = "GFX_resources_strip" frame = 3 position = { x = 148 y = 3 } alwaystransparent = yes }
+			instantTextBoxType = { name = "rubber_text" position = { x = 163 y = 8 } font = "hoi_16mbs" text = "FF_TOPBAR_RES_RUBBER" maxWidth = 50 maxHeight = 23 format = right pdx_tooltip = "FF_TOPBAR_RES_RUBBER_TT" }
+
+			iconType = { name = "tungsten_box"   spriteType = "GFX_generic_box_smallest" position = { x = 223 y = 3 } alwaystransparent = yes }
+			iconType = { name = "tungsten_icon"  spriteType = "GFX_resources_strip" frame = 4 position = { x = 223 y = 3 } alwaystransparent = yes }
+			instantTextBoxType = { name = "tungsten_text" position = { x = 238 y = 8 } font = "hoi_16mbs" text = "FF_TOPBAR_RES_TUNGSTEN" maxWidth = 50 maxHeight = 23 format = right pdx_tooltip = "FF_TOPBAR_RES_TUNGSTEN_TT" }
+
+			iconType = { name = "steel_box"      spriteType = "GFX_generic_box_smallest" position = { x = 298 y = 3 } alwaystransparent = yes }
+			iconType = { name = "steel_icon"     spriteType = "GFX_resources_strip" frame = 5 position = { x = 298 y = 3 } alwaystransparent = yes }
+			instantTextBoxType = { name = "steel_text" position = { x = 313 y = 8 } font = "hoi_16mbs" text = "FF_TOPBAR_RES_STEEL" maxWidth = 50 maxHeight = 23 format = right pdx_tooltip = "FF_TOPBAR_RES_STEEL_TT" }
+
+			iconType = { name = "chromium_box"   spriteType = "GFX_generic_box_smallest" position = { x = 373 y = 3 } alwaystransparent = yes }
+			iconType = { name = "chromium_icon"  spriteType = "GFX_resources_strip" frame = 6 position = { x = 373 y = 3 } alwaystransparent = yes }
+			instantTextBoxType = { name = "chromium_text" position = { x = 388 y = 8 } font = "hoi_16mbs" text = "FF_TOPBAR_RES_CHROMIUM" maxWidth = 50 maxHeight = 23 format = right pdx_tooltip = "FF_TOPBAR_RES_CHROMIUM_TT" }
+		}
+	}
+
+	### Resource row collapsed: tab to open it again (worked before as its own window)
+	containerWindowType = {
+		name = "ff_bice_topbar_resources_open"
+		position = { x = 0 y = 117 }
+		size = { width = 100 height = 30 }
+		buttonType = {
+			name = "open_storage"
+			spriteType = "GFX_storage_right_bg"
+			position = { x = 0 y = 0 }
+			pdx_tooltip = "FF_TOPBAR_RES_SHOW"
+		}
+	}
+
+	### Nukes, always visible (engine one only shows when > 0)
+	containerWindowType = {
+		name = "ff_bice_topbar_nukes"
+		position = { x = 108 y = 40 }
+		size = { width = 85 height = 28 }
+		iconType = {
+			name = "nuke_icon"
+			spriteType = "GFX_topbar_nuke"
+			position = { x = 3 y = 4 }
+			scale = 0.78
+			alwaystransparent = yes
+		}
+		instantTextBoxType = {
+			name = "nukes_value"
+			position = { x = 30 y = 2 }
+			font = "hoi_18mbs"
+			text = "FF_TOPBAR_NUKES"
+			format = centre
+			maxWidth = 50
+			maxHeight = 24
+			fixedsize = yes
+			pdx_tooltip = "FF_TOPBAR_NUKES_TT"
+		}
+	}
+
+	### Row 1 empty slot: divisions
+	containerWindowType = {
+		name = "ff_bice_topbar_divisions"
+		position = { x = 411 y = 8 }
+		size = { width = 95 height = 28 }
+		iconType = {
+			name = "divisions_icon"
+			spriteType = "GFX_topbar_divisions"
+			position = { x = 11 y = 0 }
+			alwaystransparent = yes
+		}
+		instantTextBoxType = {
+			name = "divisions_text"
+			position = { x = 34 y = -4 }
+			font = "hoi_20bs"
+			text = "FF_TOPBAR_DIVISIONS"
+			format = centre
+			maxWidth = 59
+			maxHeight = 24
+			fixedsize = yes
+			pdx_tooltip = "FF_TOPBAR_DIVISIONS_TT"
+		}
+	}
+
+	### Row 2 empty slot: energy
+	containerWindowType = {
+		name = "ff_bice_topbar_energy"
+		position = { x = 510 y = 42 }
+		size = { width = 90 height = 28 }
+		iconType = {
+			name = "energy_icon"
+			spriteType = "GFX_electricity_medium"
+			position = { x = 9 y = 1 }
+			alwaystransparent = yes
+		}
+		iconType = {
+			name = "energy_icon_bad"
+			spriteType = "GFX_electricity_medium_bad"
+			position = { x = 9 y = 1 }
+			alwaystransparent = yes
+		}
+		instantTextBoxType = {
+			name = "energy_text"
+			position = { x = 26 y = 2 }
+			font = "hoi_18mbs"
+			text = "FF_TOPBAR_ENERGY"
+			format = centre
+			maxWidth = 59
+			maxHeight = 24
+			fixedsize = yes
+			pdx_tooltip = "FF_TOPBAR_ENERGY_TT"
+		}
+	}
+
+	### World tension (BlackICE layout): global value on the globe, own added tension in the box below
+	containerWindowType = {
+		name = "ff_bice_topbar_tension"
+		position = { x = 0 y = 0 }
+		orientation = UPPER_RIGHT
+
+		instantTextBoxType = {
+			name = "threat_global_value"
+			position = { x = -118 y = 26 }
+			font = "hoi_36header"
+			text = "FF_TOPBAR_TENSION_GLOBAL"
+			format = center
+			maxWidth = 100
+			maxHeight = 24
+			fixedsize = yes
+			alwaystransparent = yes
+		}
+		instantTextBoxType = {
+			name = "threat_country_value"
+			position = { x = -118 y = 73 }
+			font = "hoi_20bs"
+			text = "FF_TOPBAR_TENSION_COUNTRY"
+			format = center
+			maxWidth = 100
+			maxHeight = 24
+			fixedsize = yes
+			pdx_tooltip = "FF_TOPBAR_TENSION_TT"
+		}
+	}
+}

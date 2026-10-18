@@ -1,0 +1,9 @@
+﻿l_korean:
+ FF_POP_M:0 "[?ff_pop_m|2]M"
+ FF_POP_K:0 "[?ff_pop_k|0]K"
+ FF_CPOP_M:0 "[?ff_cpop_m|2]M"
+ FF_CPOP_K:0 "[?ff_cpop_k|0]K"
+ FF_POLITICS_POP:0 "[FF_GetPopulation]"
+ FF_POLITICS_STATES:0 "[?num_controlled_states|0]"
+ FF_POLITICS_POP_TT:0 "§YPopulation§!\nTotal Population: §Y[FF_GetPopulation]§!\nTotal Population in Cores: §Y[FF_GetCorePopulation]§!"
+ FF_POLITICS_STATES_TT:0 "There are currently [?num_controlled_states|Y0] States under §Y[Root.GetAdjective]§! control.\n§Y[Root.GetNameWithFlag]:§!\n owns [?num_owned_states|Y0] States\n occupies [?num_occupied_states|Y0] States of a foreign country\n\nOut of the total [?num_core_states|Y0] [Root.GetAdjective] cores:\n we own and control [?num_owned_controlled_states|Y0] States"

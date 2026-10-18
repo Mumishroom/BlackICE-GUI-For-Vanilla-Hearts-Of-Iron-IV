@@ -1,0 +1,46 @@
+# Population for the politics view (sum of state populations, vanilla data)
+defined_text = {
+	name = FF_GetPopulation
+	text = {
+		trigger = {
+			set_temp_variable = { ff_pop_k = 0 }
+			all_owned_state = { add_to_temp_variable = { ff_pop_k = state_population_k } }
+			set_temp_variable = { ff_pop_m = ff_pop_k }
+			divide_temp_variable = { ff_pop_m = 1000 }
+			check_variable = { ff_pop_k > 999 }
+		}
+		localization_key = FF_POP_M
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { ff_pop_k = 0 }
+			all_owned_state = { add_to_temp_variable = { ff_pop_k = state_population_k } }
+			set_temp_variable = { ff_pop_m = ff_pop_k }
+			divide_temp_variable = { ff_pop_m = 1000 }
+		}
+		localization_key = FF_POP_K
+	}
+}
+
+defined_text = {
+	name = FF_GetCorePopulation
+	text = {
+		trigger = {
+			set_temp_variable = { ff_cpop_k = 0 }
+			all_core_state = { add_to_temp_variable = { ff_cpop_k = state_population_k } }
+			set_temp_variable = { ff_cpop_m = ff_cpop_k }
+			divide_temp_variable = { ff_cpop_m = 1000 }
+			check_variable = { ff_cpop_k > 999 }
+		}
+		localization_key = FF_CPOP_M
+	}
+	text = {
+		trigger = {
+			set_temp_variable = { ff_cpop_k = 0 }
+			all_core_state = { add_to_temp_variable = { ff_cpop_k = state_population_k } }
+			set_temp_variable = { ff_cpop_m = ff_cpop_k }
+			divide_temp_variable = { ff_cpop_m = 1000 }
+		}
+		localization_key = FF_CPOP_K
+	}
+}

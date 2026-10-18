@@ -1,0 +1,9 @@
+﻿l_russian:
+ FF_POP_M:0 "[?ff_pop_m|2]M"
+ FF_POP_K:0 "[?ff_pop_k|0]K"
+ FF_CPOP_M:0 "[?ff_cpop_m|2]M"
+ FF_CPOP_K:0 "[?ff_cpop_k|0]K"
+ FF_POLITICS_POP:0 "[FF_GetPopulation]"
+ FF_POLITICS_STATES:0 "[?num_controlled_states|0]"
+ FF_POLITICS_POP_TT:0 "§YНаселение§!\nВсего: §Y[FF_GetPopulation]§!\nНа коренных территориях: §Y[FF_GetCorePopulation]§!"
+ FF_POLITICS_STATES_TT:0 "Под контролем: [?num_controlled_states|Y0] областей.\n§Y[Root.GetNameWithFlag]:§!\n владеет [?num_owned_states|Y0]\n оккупирует чужих: [?num_occupied_states|Y0]\n\nКоренных областей всего [?num_core_states|Y0], из них наших и под контролем: [?num_owned_controlled_states|Y0]"

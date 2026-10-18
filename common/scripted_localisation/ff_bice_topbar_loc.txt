@@ -1,0 +1,101 @@
+# Faction Freedom: BlackICE-style top bar number formatting
+# (logic adapted from BlackICE BI scripted localisation, uses only vanilla variables)
+
+defined_text = {
+	name = FF_GetTopbarPolitical
+	text = {
+		trigger = { has_political_power > 99.9 }
+		localization_key = FF_TOPBAR_PP_0
+	}
+	text = {
+		trigger = { has_political_power > 9.9 }
+		localization_key = FF_TOPBAR_PP_1
+	}
+	text = {
+		localization_key = FF_TOPBAR_PP_2
+	}
+}
+
+defined_text = {
+	name = FF_GetTopbarCommand
+	text = {
+		trigger = { command_power > 99.9 }
+		localization_key = FF_TOPBAR_CP_0
+	}
+	text = {
+		trigger = { command_power > 9.9 }
+		localization_key = FF_TOPBAR_CP_1
+	}
+	text = {
+		localization_key = FF_TOPBAR_CP_2
+	}
+}
+
+defined_text = {
+	name = FF_GetTopbarStability
+	text = {
+		trigger = { check_variable = { has_stability = 1 } }
+		localization_key = FF_TOPBAR_STAB_0
+	}
+	text = {
+		localization_key = FF_TOPBAR_STAB_1
+	}
+}
+
+defined_text = {
+	name = FF_GetTopbarWarSupport
+	text = {
+		trigger = { check_variable = { has_war_support = 1 } }
+		localization_key = FF_TOPBAR_WS_0
+	}
+	text = {
+		localization_key = FF_TOPBAR_WS_1
+	}
+}
+
+defined_text = {
+	name = FF_GetTopbarManpower
+	text = {
+		trigger = {
+			check_variable = { manpower_k > 10000 }
+			set_temp_variable = { ff_mp_m = manpower_k }
+			divide_temp_variable = { ff_mp_m = 1000 }
+		}
+		localization_key = FF_TOPBAR_MP_M2
+	}
+	text = {
+		trigger = {
+			check_variable = { manpower_k > 1000 }
+			set_temp_variable = { ff_mp_m = manpower_k }
+			divide_temp_variable = { ff_mp_m = 1000 }
+		}
+		localization_key = FF_TOPBAR_MP_M3
+	}
+	text = {
+		trigger = { check_variable = { manpower_k > 10 } }
+		localization_key = FF_TOPBAR_MP_K
+	}
+	text = {
+		localization_key = FF_TOPBAR_MP
+	}
+}
+
+# Special forces: battalions in use / allowed.
+# Limit uses the Faction Freedom defines: SPECIAL_FORCES_CAP_BASE = 0.5, SPECIAL_FORCES_CAP_MIN = 142
+defined_text = {
+	name = FF_GetSpecialForcesTopbar
+	text = {
+		trigger = {
+			ff_calc_special_forces = yes
+		}
+		localization_key = FF_TOPBAR_SF_VALUE
+	}
+}
+
+defined_text = {
+	name = FF_GetSpecialForcesTT
+	text = {
+		trigger = { ff_calc_special_forces = yes }
+		localization_key = FF_TOPBAR_SF_TT_TEXT
+	}
+}

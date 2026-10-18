@@ -1,0 +1,18 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_generic_box_smallest_85px"
+		texturefile = "gfx/interface/generic_box_smallest_85px.dds"
+	}
+	spriteType = {
+		name = "GFX_topbar_divisions"
+		texturefile = "gfx/interface/topbar/dynamic_topbar/topbar_divisions.dds"
+	}
+	spriteType = {
+		name = "GFX_electricity_medium"
+		texturefile = "gfx/interface/scripted_gui/electricity_40_40.dds"
+	}
+	spriteType = {
+		name = "GFX_electricity_medium_bad"
+		texturefile = "gfx/interface/scripted_gui/electricity_40_40_bad.dds"
+	}
+}
