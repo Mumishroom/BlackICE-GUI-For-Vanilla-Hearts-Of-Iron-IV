@@ -420,9 +420,9 @@ guiTypes = {
 				gridboxtype = {
 					name = "spirit_grid"
 					position = { x = 2 y = 0 }
-					size = { width = 660 height = 130 }	# FF: 11 per row, game falls back to the small grid once a row overflows
-					slotsize = { width = 60 height = 60 }
-					max_slots = { x = 11 y = 2 }
+					size = { width = 660 height = 68 }	# FF: one row like vanilla; slot height 68 as in vanilla, a 60px slot is shorter than the spirit icon
+					slotsize = { width = 60 height = 68 }
+					max_slots = { x = 11 y = 1 }
 					format = "UPPER_LEFT"
 				}
 				gridboxtype = {
