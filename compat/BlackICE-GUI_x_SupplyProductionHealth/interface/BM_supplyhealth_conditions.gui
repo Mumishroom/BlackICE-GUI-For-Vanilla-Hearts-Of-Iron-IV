@@ -24,7 +24,7 @@ guiTypes = {
 			iconType = {
 				name = "supply_ratio_bar"
 				spriteType = "GFX_compat_supply_health_bar"
-				position = { x = 32 y = 13 }
+				position = { x = 32 y = 14 }	# same height as the factory bar
 				frame = 50
 				alwaystransparent = yes
 			}

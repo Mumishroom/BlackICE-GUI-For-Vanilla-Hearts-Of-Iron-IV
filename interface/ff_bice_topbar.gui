@@ -91,7 +91,7 @@ guiTypes = {
 		}
 		instantTextBoxType = {
 			name = "special_forces_text"
-			position = { x = 20 y = 5 }
+			position = { x = 20 y = 7 }	# FF: digits centred in the box like the other slots without a bar
 			text = "[FF_GetSpecialForcesTopbar]"
 			font = "hoi_18mbs"
 			maxWidth = 62
@@ -195,7 +195,7 @@ guiTypes = {
 		}
 		instantTextBoxType = {
 			name = "nukes_value"
-			position = { x = 30 y = 2 }
+			position = { x = 30 y = 4 }	# FF: digits centred in the box like the other slots without a bar
 			font = "hoi_18mbs"
 			text = "FF_TOPBAR_NUKES"
 			format = centre
