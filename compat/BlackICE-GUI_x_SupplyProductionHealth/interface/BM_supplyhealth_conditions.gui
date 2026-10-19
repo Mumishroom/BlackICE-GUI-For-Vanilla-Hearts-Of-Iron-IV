@@ -1,5 +1,5 @@
 # compat: Better Mechanics Supply Production Health indicator placed in the BlackICE GUI
-# special forces slot (topbar row 2), styled like the other BlackICE topbar slots
+# divisions slot (topbar row 1), styled like the other BlackICE topbar slots
 guiTypes = {
 	containerWindowType = {
 		name = "RCM_supply_conditions_container"
@@ -8,33 +8,33 @@ guiTypes = {
 
 		containerWindowType = {
 			name = "RCM_supply_conditions_container_2"
-			position = { x = 610 y = 37 }
-			size = { width = 90 height = 30 }
+			position = { x = 411 y = 8 }
+			size = { width = 95 height = 28 }
 
 			iconType = {
 				name ="supply_overlay"
 				spriteType = "GFX_supply_overlay"
-				position = { x = 1 y = 4 }
+				position = { x = 7 y = -2 }
 				Orientation = "UPPER_LEFT"
 				scale = 0.75
 				pdx_tooltip = "SUPPLY_CONDITION_TOOLTIP"
 			}
 
-			# filled by the scripted GUI from supply_condition (0-100), shorter copy of the fuel/convoys bar
+			# filled by the scripted GUI from supply_condition (0-100), same bar as fuel/convoys
 			iconType = {
 				name = "supply_ratio_bar"
-				spriteType = "GFX_compat_supply_health_bar"
-				position = { x = 24 y = 18 }
+				spriteType = "GFX_topbar_fuel_bar"
+				position = { x = 30 y = 13 }
 				frame = 50
 				alwaystransparent = yes
 			}
 
 			instantTextboxType = {
 				name = "supply"
-				position = { x = 18 y = 2 }
-				font = "hoi_18mbs"
+				position = { x = 28 y = -4 }
+				font = "hoi_20bs"
 				text = "SUPPLY_DISPLAY_TOOLTIP"
-				maxWidth = 52
+				maxWidth = 59
 				maxHeight = 24
 				format = centre
 				pdx_tooltip = "SUPPLY_CONDITION_TOOLTIP"
