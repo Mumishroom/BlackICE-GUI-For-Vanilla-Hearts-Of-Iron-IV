@@ -473,29 +473,29 @@ guiTypes = {
 				quadTextureSprite ="GFX_tiled_window_1b_border"
 			}        
 			
-			# FF laws fork: coloured zone behind each law type of National Policies (4th category: y = 3*110 + 46)
+			# FF laws fork: coloured zone behind each law type of National Policies (3rd category: y = 2*110 + 46)
 			iconType = {
 				name = "ff_policy_zone_government"
 				spriteType = "GFX_ff_policy_zone_government"
-				position = { x = 18 y = 375 }
+				position = { x = 18 y = 265 }
 				alwaystransparent = yes
 			}
 			iconType = {
 				name = "ff_policy_zone_economic"
 				spriteType = "GFX_ff_policy_zone_economic"
-				position = { x = 342 y = 375 }
+				position = { x = 342 y = 265 }
 				alwaystransparent = yes
 			}
 			iconType = {
 				name = "ff_policy_zone_internal"
 				spriteType = "GFX_ff_policy_zone_internal"
-				position = { x = 18 y = 431 }
+				position = { x = 18 y = 321 }
 				alwaystransparent = yes
 			}
 			iconType = {
 				name = "ff_policy_zone_military"
 				spriteType = "GFX_ff_policy_zone_military"
-				position = { x = 342 y = 431 }
+				position = { x = 342 y = 321 }
 				alwaystransparent = yes
 			}
 
@@ -980,27 +980,28 @@ guiTypes = {
 	
 	containerWindowType = {
 		name = "political_idea_entry"
-		size = { width = 53 height = 53 }
+		size = { width = 46 height = 46 }	# FF laws fork: 85% size so neighbours no longer touch
 		clipping = no
 
 		iconType = {
 			name = "idea_alert_glow"
-			position = { x = -14 y = -8 }
+			position = { x = -12 y = -7 }
 			spriteType = "GFX_ongoing_generic_glow_yellow"
-			scale = 0.65			 
+			scale = 0.55
 			alwaystransparent = yes 
 		}		
 		
 		buttonType = {
 			name = "add_idea_button"
-			position = { x = 0 y = 0 }
+			position = { x = 3 y = 4 }
 			spriteType = "GFX_add_pol_idea_button"
 			clicksound = click_default
+			scale = 0.85
 		}
 		
 		iconType = {
 			name = "idea_traits"
-			position = { x = 43 y = 46 }
+			position = { x = 40 y = 43 }
 			spriteType = "GFX_idea_traits_strip"
 			centerposition = yes
 			alwaystransparent = yes

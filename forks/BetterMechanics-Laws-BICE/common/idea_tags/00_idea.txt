@@ -27,7 +27,9 @@ idea_categories = {
 		slot = mobilization_laws
 		slot = trade_laws
 		slot = economy
-		# BlackICE GUI fork: 7 political advisor slots (vanilla has 3), with the 3 laws that is one row of 10
+		# BlackICE GUI fork: 9 political advisor slots (vanilla has 3), with the 3 laws that is one row of 12
+		character_slot = political_advisor
+		character_slot = political_advisor
 		character_slot = political_advisor
 		character_slot = political_advisor
 		character_slot = political_advisor
@@ -49,6 +51,14 @@ idea_categories = {
 		slot = materiel_manufacturer
 		slot = industrial_concern
 		character_slot = theorist
+		# BlackICE GUI fork: military staff merged in here (shown as "Industry & High Command");
+		# the chiefs' ideas carry their own army/navy/air ledgers
+		character_slot = army_chief
+		character_slot = navy_chief
+		character_slot = air_chief
+		character_slot = high_command
+		character_slot = high_command
+		character_slot = high_command
 
 		ledger = civilian
 		
@@ -56,20 +66,6 @@ idea_categories = {
 		removal_cost = 0
 	}
 	
-	military_staff = {
-		character_slot = army_chief 
-		character_slot = navy_chief 
-		character_slot = air_chief
-		character_slot = high_command
-		character_slot = high_command
-		character_slot = high_command
-		
-		ledger = invalid # must be overridden
-		
-		cost = 150
-		removal_cost = 0
-	}
-
 	academy_spirit = {
 		type = army_spirit
 
