@@ -20,21 +20,21 @@ guiTypes = {
 				pdx_tooltip = "SUPPLY_CONDITION_TOOLTIP"
 			}
 
-			# filled by the scripted GUI from supply_condition (0-100), same bar as fuel/convoys
+			# filled by the scripted GUI from supply_condition (0-100), shorter copy of the fuel/convoys bar
 			iconType = {
 				name = "supply_ratio_bar"
-				spriteType = "GFX_topbar_fuel_bar"
-				position = { x = 24 y = 21 }
+				spriteType = "GFX_compat_supply_health_bar"
+				position = { x = 24 y = 18 }
 				frame = 50
 				alwaystransparent = yes
 			}
 
 			instantTextboxType = {
 				name = "supply"
-				position = { x = 20 y = 5 }
+				position = { x = 18 y = 2 }
 				font = "hoi_18mbs"
 				text = "SUPPLY_DISPLAY_TOOLTIP"
-				maxWidth = 62
+				maxWidth = 52
 				maxHeight = 24
 				format = centre
 				pdx_tooltip = "SUPPLY_CONDITION_TOOLTIP"

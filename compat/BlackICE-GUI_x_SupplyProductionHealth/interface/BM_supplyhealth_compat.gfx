@@ -1,0 +1,12 @@
+# compat: shorter copy of GFX_topbar_fuel_bar, the special forces slot is narrower than the fuel/supply boxes
+spriteTypes = {
+	progressbartype = {
+		name = "GFX_compat_supply_health_bar"
+		color = { 0.0 0.5 0.0 }
+		colortwo = { 1.0 0.0 0.0 }
+		textureFile1 = "gfx\\interface\\fuel_bar.dds"
+		textureFile2 = "gfx\\interface\\fuel_bar_bg.dds"
+		size = { x = 40 y = 8 }
+		effectFile = "gfx/FX/progress_startend.lua"
+	}
+}
