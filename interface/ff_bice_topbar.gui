@@ -189,7 +189,7 @@ guiTypes = {
 		iconType = {
 			name = "nuke_icon"
 			spriteType = "GFX_topbar_nuke"
-			position = { x = 3 y = 4 }
+			position = { x = 4 y = 4 }	# FF: 3px from the box edge, centred vertically
 			scale = 0.78
 			alwaystransparent = yes
 		}
@@ -238,13 +238,13 @@ guiTypes = {
 		iconType = {
 			name = "energy_icon"
 			spriteType = "GFX_electricity_medium"
-			position = { x = 9 y = 1 }
+			position = { x = 9 y = 0 }	# FF: 3px from the box edge, centred vertically
 			alwaystransparent = yes
 		}
 		iconType = {
 			name = "energy_icon_bad"
 			spriteType = "GFX_electricity_medium_bad"
-			position = { x = 9 y = 1 }
+			position = { x = 9 y = 0 }	# FF: 3px from the box edge, centred vertically
 			alwaystransparent = yes
 		}
 		instantTextBoxType = {

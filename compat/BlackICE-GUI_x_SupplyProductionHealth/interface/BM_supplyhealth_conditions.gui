@@ -14,7 +14,7 @@ guiTypes = {
 			iconType = {
 				name ="supply_overlay"
 				spriteType = "GFX_supply_overlay"
-				position = { x = 10 y = -2 }
+				position = { x = 10 y = -1 }
 				Orientation = "UPPER_LEFT"
 				scale = 0.75
 				pdx_tooltip = "SUPPLY_CONDITION_TOOLTIP"
