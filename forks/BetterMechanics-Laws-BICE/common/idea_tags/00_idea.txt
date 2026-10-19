@@ -66,6 +66,16 @@ idea_categories = {
 		removal_cost = 0
 	}
 	
+	# BlackICE GUI fork: the military staff slots now live in research_production. The category is
+	# kept as an empty, hidden stub (like hidden_ideas) so anything that refers to it by name still finds it.
+	military_staff = {
+		politics_tab = no
+		ledger = hidden
+
+		cost = 150
+		removal_cost = 0
+	}
+
 	academy_spirit = {
 		type = army_spirit
 
