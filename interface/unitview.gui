@@ -2567,11 +2567,11 @@ guiTypes = {
 			verticalScrollbar = "right_vertical_slider"
 			
 			# FF: GFX_unit_stats_bg is the whole vanilla window background (856x522), not a paper panel,
-			# so it was drawn shifted under the stats; use the history tab paper sized to the three stat columns
+			# so it was drawn shifted under the stats; use the history tab paper, kept below the name/manpower row
 			containerWindowType = {
 				name = "stat_bg"
-				position = { x = 8 y = 12 }
-				size = { width = 626 height = 272 }
+				position = { x = 8 y = 32 }
+				size = { width = 626 height = 238 }
 				background = {
 					name = "paper_background"
 					quadTextureSprite = "GFX_tiled_paper_w_frame_one_border_2"
@@ -2581,7 +2581,7 @@ guiTypes = {
 			# base stats
 			containerWindowType = {
 				name = "base_stats"
-				position = { x=12 y=19 }
+				position = { x=12 y=26 }
 				size = { width=165 height=200 }
 				clipping = no
 
@@ -2598,9 +2598,9 @@ guiTypes = {
 
 				gridboxtype = {
 					name = "stats_grid"
-					position = { x = 5 y = 36 }
+					position = { x = 5 y = 32 }
 					size = { width = 155 height = 100%% }
-					slotsize = { width = 155 height = 20 }
+					slotsize = { width = 155 height = 18 }
 					max_slots_horizontal = 1
 					format = "UPPER_LEFT"
 				}
@@ -2608,7 +2608,7 @@ guiTypes = {
 			# Combat stats
 			containerWindowType = {
 				name = "combat_stats"
-				position = { x=210 y=19 }
+				position = { x=210 y=26 }
 				size = { width=165 height=200 }
 				clipping = no
 
@@ -2625,9 +2625,9 @@ guiTypes = {
 
 				gridboxtype = {
 					name = "stats_grid"
-					position = { x = 8 y = 36 }
+					position = { x = 8 y = 32 }
 					size = { width = 155 height = 100%% }
-					slotsize = { width = 155 height = 20 }
+					slotsize = { width = 155 height = 18 }
 					max_slots_horizontal = 1
 					format = "UPPER_LEFT"
 				}
@@ -2635,7 +2635,7 @@ guiTypes = {
 			# Misc. Stats
 			containerWindowType = {
 				name = "misc_stats"
-				position = { x=412 y=19 }
+				position = { x=412 y=26 }
 				size = { width=165 height=200 }
 				Orientation = UPPER_LEFT
 				clipping = no
@@ -2653,9 +2653,9 @@ guiTypes = {
 
 				gridboxtype = {
 					name = "stats_grid"
-					position = { x = 7 y = 36 }
+					position = { x = 7 y = 32 }
 					size = { width = 155 height = 100%% }
-					slotsize = { width = 155 height = 20 }
+					slotsize = { width = 155 height = 18 }
 					max_slots_horizontal = 1
 					format = "UPPER_LEFT"
 				}
@@ -3414,11 +3414,11 @@ guiTypes = {
 			verticalScrollbar = "right_vertical_slider"
 
 			# FF: GFX_unit_stats_bg is the whole vanilla window background (856x522), not a paper panel,
-			# so it was drawn shifted under the stats; use the history tab paper sized to the three stat columns
+			# so it was drawn shifted under the stats; use the history tab paper, kept below the name/manpower row
 			containerWindowType = {
 				name = "stat_bg"
-				position = { x = 8 y = 12 }
-				size = { width = 626 height = 272 }
+				position = { x = 8 y = 32 }
+				size = { width = 626 height = 238 }
 				background = {
 					name = "paper_background"
 					quadTextureSprite = "GFX_tiled_paper_w_frame_one_border_2"
@@ -3427,7 +3427,7 @@ guiTypes = {
 			}
 			containerWindowType = {
 				name = "base_stats"
-				position = { x=15 y=20 }
+				position = { x=15 y=26 }
 				size = { width=165 height=200 }
 				clipping = no
 
@@ -3443,9 +3443,9 @@ guiTypes = {
 
 				gridboxtype = {
 					name = "stats_grid"
-					position = { x = 5 y = 36 }
+					position = { x = 5 y = 32 }
 					size = { width = 155 height = 100%% }
-					slotsize = { width = 155 height = 20 }
+					slotsize = { width = 155 height = 18 }
 					max_slots_horizontal = 1
 					format = "UPPER_LEFT"
 				}
@@ -3453,7 +3453,7 @@ guiTypes = {
 
 			containerWindowType = {
 				name = "combat_stats"
-				position = { x=210 y=20 }
+				position = { x=210 y=26 }
 				size = { width=165 height=200 }
 				clipping = no
 
@@ -3469,9 +3469,9 @@ guiTypes = {
 
 				gridboxtype = {
 					name = "stats_grid"
-					position = { x = 8 y = 36 }
+					position = { x = 8 y = 32 }
 					size = { width = 155 height = 100%% }
-					slotsize = { width = 155 height = 20 }
+					slotsize = { width = 155 height = 18 }
 					max_slots_horizontal = 1
 					format = "UPPER_LEFT"
 				}
@@ -3479,7 +3479,7 @@ guiTypes = {
 
 			containerWindowType = {
 				name = "misc_stats"
-				position = { x=415 y=20 }
+				position = { x=415 y=26 }
 				size = { width=165 height=200 }
 				Orientation = UPPER_LEFT
 				clipping = no
@@ -3496,9 +3496,9 @@ guiTypes = {
 
 				gridboxtype = {
 					name = "stats_grid"
-					position = { x = 7 y = 36 }
+					position = { x = 7 y = 32 }
 					size = { width = 155 height = 100%% }
-					slotsize = { width = 155 height = 20 }
+					slotsize = { width = 155 height = 18 }
 					max_slots_horizontal = 1
 					format = "UPPER_LEFT"
 				}
