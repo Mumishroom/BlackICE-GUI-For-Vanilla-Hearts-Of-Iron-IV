@@ -1,0 +1,47 @@
+scripted_gui = {
+	ff_bice_topbar_political_power = {
+		context_type = player_context
+		window_name = "ff_bice_topbar_political_power"
+		parent_window_token = top_bar
+	}
+	ff_bice_topbar_command_power = {
+		context_type = player_context
+		window_name = "ff_bice_topbar_command_power"
+		parent_window_token = top_bar
+	}
+	ff_bice_topbar_container = {
+		context_type = player_context
+		window_name = "ff_bice_topbar_container"
+		parent_window_token = top_bar
+	}
+	ff_bice_topbar_special_forces = {
+		context_type = player_context
+		window_name = "ff_bice_topbar_special_forces"
+		parent_window_token = top_bar
+		visible = { always = no }	# compat: Supply Production Health indicator takes this slot
+	}
+	ff_bice_topbar_nukes = {
+		context_type = player_context
+		window_name = "ff_bice_topbar_nukes"
+		parent_window_token = top_bar
+	}
+	ff_bice_topbar_resources = {
+		context_type = player_context
+		window_name = "ff_bice_topbar_resources"
+		parent_window_token = top_bar
+		visible = { NOT = { has_country_flag = ff_bice_hide_resources } }
+		effects = { close_click = { set_country_flag = ff_bice_hide_resources } }
+	}
+	ff_bice_topbar_resources_open = {
+		context_type = player_context
+		window_name = "ff_bice_topbar_resources_open"
+		parent_window_token = top_bar
+		visible = { has_country_flag = ff_bice_hide_resources }
+		effects = { open_storage_click = { clr_country_flag = ff_bice_hide_resources } }
+	}
+	ff_bice_topbar_tension = {
+		context_type = player_context
+		window_name = "ff_bice_topbar_tension"
+		parent_window_token = top_bar
+	}
+}

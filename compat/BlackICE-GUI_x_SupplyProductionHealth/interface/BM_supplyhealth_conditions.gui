@@ -1,0 +1,35 @@
+# compat: Better Mechanics Supply Production Health indicator placed in the BlackICE GUI
+# special forces slot (topbar row 2), styled like the other BlackICE topbar slots
+guiTypes = {
+	containerWindowType = {
+		name = "RCM_supply_conditions_container"
+		position = { x = 0 y = 0 }
+		size = { width = 102%% height = 107%% }
+
+		containerWindowType = {
+			name = "RCM_supply_conditions_container_2"
+			position = { x = 610 y = 37 }
+			size = { width = 90 height = 30 }
+
+			iconType = {
+				name ="supply_overlay"
+				spriteType = "GFX_supply_overlay"
+				position = { x = -2 y = 4 }
+				Orientation = "UPPER_LEFT"
+				scale = 0.75
+				pdx_tooltip = "SUPPLY_CONDITION_TOOLTIP"
+			}
+
+			instantTextboxType = {
+				name = "supply"
+				position = { x = 20 y = 5 }
+				font = "hoi_18mbs"
+				text = "SUPPLY_DISPLAY_TOOLTIP"
+				maxWidth = 62
+				maxHeight = 24
+				format = centre
+				pdx_tooltip = "SUPPLY_CONDITION_TOOLTIP"
+			}
+		}
+	}
+}
