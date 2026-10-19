@@ -194,7 +194,7 @@ guiTypes = {
 		iconType ={
 			name ="manpower_icon"
 			spriteType = "GFX_manpower_icon"
-			position = { x = 311 y = 5 }
+			position = { x = 314 y = 5 }	# FF: 3px off the box edge, it touched the rounded corner
 			orientation = "UPPER_LEFT"
 		}
 		instantTextBoxType = {
