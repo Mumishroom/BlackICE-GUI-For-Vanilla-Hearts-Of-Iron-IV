@@ -14,24 +14,24 @@ guiTypes = {
 			iconType = {
 				name ="supply_overlay"
 				spriteType = "GFX_supply_overlay"
-				position = { x = 7 y = -2 }
+				position = { x = 10 y = -2 }
 				Orientation = "UPPER_LEFT"
 				scale = 0.75
 				pdx_tooltip = "SUPPLY_CONDITION_TOOLTIP"
 			}
 
-			# filled by the scripted GUI from supply_condition (0-100), same bar as fuel/convoys
+			# filled by the scripted GUI from supply_condition (0-100), fuel/convoys bar stretched to end where the bars below end
 			iconType = {
 				name = "supply_ratio_bar"
-				spriteType = "GFX_topbar_fuel_bar"
-				position = { x = 30 y = 13 }
+				spriteType = "GFX_compat_supply_health_bar"
+				position = { x = 32 y = 13 }
 				frame = 50
 				alwaystransparent = yes
 			}
 
 			instantTextboxType = {
 				name = "supply"
-				position = { x = 28 y = -4 }
+				position = { x = 31 y = -4 }
 				font = "hoi_20bs"
 				text = "SUPPLY_DISPLAY_TOOLTIP"
 				maxWidth = 59
