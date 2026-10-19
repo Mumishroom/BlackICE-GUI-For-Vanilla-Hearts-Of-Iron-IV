@@ -821,7 +821,7 @@ guiTypes = {
 		
 		gridboxtype = { 
 			name = "ideas_grid"
-			position = { x = 12 y = 46 }
+			position = { x = 5 y = 43 }	# FF: idea pictures are 68x63 and drawn from the slot corner, this centres them on the 54x56 slots
 			size = { width = 648 height = 112 }	# FF: second row only for National Policies, the last category, so it can grow past its slot
 			slotsize = { width = 54 height = 56 }	# FF: 12 per row
 			max_slots = { x = 12 y = 2 }
