@@ -27,10 +27,7 @@ idea_categories = {
 		slot = mobilization_laws
 		slot = trade_laws
 		slot = economy
-		# BlackICE GUI fork: 10 political advisor slots like BlackICE (vanilla has 3)
-		character_slot = political_advisor
-		character_slot = political_advisor
-		character_slot = political_advisor
+		# BlackICE GUI fork: 7 political advisor slots (vanilla has 3), with the 3 laws that is one row of 10
 		character_slot = political_advisor
 		character_slot = political_advisor
 		character_slot = political_advisor

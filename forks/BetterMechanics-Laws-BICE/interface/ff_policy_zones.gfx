@@ -1,0 +1,19 @@
+# BlackICE GUI fork: tinted zones behind each law type in the National Policies category
+spriteTypes = {
+	spriteType = {
+		name = "GFX_ff_policy_zone_government"
+		texturefile = "gfx/interface/ff_policy_zones/government.png"
+	}
+	spriteType = {
+		name = "GFX_ff_policy_zone_economic"
+		texturefile = "gfx/interface/ff_policy_zones/economic.png"
+	}
+	spriteType = {
+		name = "GFX_ff_policy_zone_internal"
+		texturefile = "gfx/interface/ff_policy_zones/internal.png"
+	}
+	spriteType = {
+		name = "GFX_ff_policy_zone_military"
+		texturefile = "gfx/interface/ff_policy_zones/military.png"
+	}
+}
