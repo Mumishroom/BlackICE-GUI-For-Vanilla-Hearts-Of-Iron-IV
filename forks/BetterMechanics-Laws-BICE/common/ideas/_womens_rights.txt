@@ -12,12 +12,11 @@ ideas = {
             picture = PB_Total_Gender_Equality
                   	level = 5
 			modifier = {
-				conscription_factor = 0.05
-				stability_factor = -0.015
+				stability_factor = 0.1
+				conscription_factor = 0.1
 				monthly_population = -0.5
-				conscription_factor = 0.075
-				production_factory_max_efficiency_factor = -0.1
-				production_factory_efficiency_gain_factor = -0.1
+				production_factory_max_efficiency_factor = 0.1
+				production_factory_efficiency_gain_factor = 0.1
 			}
 			
 			cancel_if_invalid = yes
@@ -32,12 +31,11 @@ ideas = {
             picture = PB_Full_Womens_Equality
                   	level = 4
 			modifier = {
-				conscription_factor = 0.01
 				stability_factor = 0.05
-				monthly_population = -0.25
 				conscription_factor = 0.05
-				production_factory_max_efficiency_factor = -0.05
-				production_factory_efficiency_gain_factor = -0.05
+				monthly_population = -0.25
+				production_factory_max_efficiency_factor = 0.05
+				production_factory_efficiency_gain_factor = 0.05
 			}
 			
 			cancel_if_invalid = yes
@@ -51,8 +49,8 @@ ideas = {
             picture = PB_Limited_Womens_Rights
                   	level = 3
 			modifier = {
-				conscription_factor = 0.025
 				stability_factor = 0.02
+				conscription_factor = 0.025
 			}
 			
 			cancel_if_invalid = yes
@@ -67,12 +65,12 @@ ideas = {
             picture = PB_No_Womens_Legal_Protections
                   	level = 2
 			modifier = {
-				stability_factor = -0.02
 				political_power_gain = 0.05
+				stability_factor = -0.075
+				conscription_factor = -0.075
 				monthly_population = 0.25
-				conscription_factor = -0.025
-				production_factory_max_efficiency_factor = 0.05
-				production_factory_efficiency_gain_factor = 0.05
+				production_factory_max_efficiency_factor = -0.075
+				production_factory_efficiency_gain_factor = -0.075
 			}
 			
 			cancel_if_invalid = yes
@@ -87,12 +85,12 @@ ideas = {
             picture = PB_Patriarchal_Society
                   	level = 1
 			modifier = {
-				stability_factor = -0.1
 				political_power_gain = 0.1
+				stability_factor = -0.15
+				conscription_factor = -0.15
 				monthly_population = 0.5
-				conscription_factor = -0.075
-				production_factory_max_efficiency_factor = 0.1
-				production_factory_efficiency_gain_factor = 0.1
+				production_factory_max_efficiency_factor = -0.15
+				production_factory_efficiency_gain_factor = -0.15
 			}
 			
 			cancel_if_invalid = yes

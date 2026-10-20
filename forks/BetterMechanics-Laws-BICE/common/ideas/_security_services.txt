@@ -125,7 +125,7 @@ ideas = {
 				foreign_subversive_activites = -0.2
 				drift_defence_factor = 0.15
 				resistance_tick_auto = -0.05
-				intelligence_agency_defense = 0.5
+				intelligence_agency_defense = 3
 				resistance_activity = -0.025
 				resistance_target = -0.025
 			}
