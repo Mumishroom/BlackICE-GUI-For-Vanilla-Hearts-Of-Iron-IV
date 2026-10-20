@@ -428,12 +428,13 @@ ideas = {
 			
 			modifier = {
 				army_org_factor = -0.15
+				army_attack_factor = -0.15
+				army_defence_factor = -0.15
 				max_dig_in_factor = 0.10
 				dig_in_speed_factor = 0.10
-				army_attack_factor = -0.1
-				army_defence_factor = -0.1
 				air_accidents_factor = 0.15
-				air_weather_penalty = 0.15
+				air_weather_penalty = 0.2
+				land_night_attack = -0.2
 				static_anti_air_hit_chance_factor = -0.2
 				minimum_training_level = -0.15
 				training_time_factor = -0.5
@@ -479,12 +480,13 @@ ideas = {
 			
 			modifier = {
 				army_org_factor = -0.075
+				army_attack_factor = -0.075
+				army_defence_factor = -0.075
 				max_dig_in_factor = 0.05
 				dig_in_speed_factor = 0.05
-				army_attack_factor = -0.05
-				army_defence_factor = -0.05
 				air_accidents_factor = 0.075
-				air_weather_penalty = 0.075
+				air_weather_penalty = 0.1
+				land_night_attack = -0.1
 				static_anti_air_hit_chance_factor = -0.1
 				minimum_training_level = -0.075
 				training_time_factor = -0.25
@@ -556,13 +558,15 @@ ideas = {
 			level = 2
 			
 			modifier = {
-				army_attack_factor = 0.025
-				army_defence_factor = 0.025
+				army_org_factor = 0.075
+				army_attack_factor = 0.075
+				army_defence_factor = 0.075
 				air_accidents_factor = -0.05
-				air_weather_penalty = -0.05
+				air_weather_penalty = -0.1
+				land_night_attack = 0.1
 				static_anti_air_hit_chance_factor = 0.05
 				minimum_training_level = 0.075
-				training_time_factor = 0.075
+				training_time_factor = 0.15
 				mobilization_speed = -0.1
 				experience_gain_army_factor = 0.05
 				experience_gain_air_factor = 0.05
@@ -597,7 +601,7 @@ ideas = {
 				army_defence_factor = 0.15
 				air_accidents_factor = -0.1
 				air_weather_penalty = -0.2
-				air_night_penalty = -0.2
+				land_night_attack = 0.2
 				static_anti_air_hit_chance_factor = 0.1
 				minimum_training_level = 0.15
 				training_time_factor = 0.3
@@ -639,7 +643,7 @@ ideas = {
 				army_attack_factor = 0.05
 				army_defence_factor = 0.05
 				air_weather_penalty = -0.05
-				air_night_penalty = -0.05
+				land_night_attack = 0.05
 				conscription_factor = -0.05
 				experience_loss_factor = -0.075
 			}
@@ -671,6 +675,11 @@ ideas = {
 			level = 4
 			
 			modifier = {
+				army_org_factor = 0.075
+				army_attack_factor = 0.025
+				army_defence_factor = 0.025
+				air_weather_penalty = -0.025
+				land_night_attack = 0.025
 				experience_loss_factor = -0.05
 			}
 
@@ -740,6 +749,8 @@ ideas = {
 			
 			modifier = {
 				army_org_factor = -0.1
+				army_attack_factor = -0.025
+				army_defence_factor = -0.025
 				conscription_factor = 0.075
 				experience_loss_factor = 0.1
 			}
@@ -777,6 +788,8 @@ ideas = {
 			
 			modifier = {
 				army_org_factor = -0.15
+				army_attack_factor = -0.05
+				army_defence_factor = -0.05
 				conscription_factor = 0.1
 				experience_loss_factor = 0.2
 			}
